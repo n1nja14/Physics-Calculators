@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{638A6C1E-21CE-40F6-85BA-45B8A31ABF4E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication4</RootNamespace>
+    <AssemblyName>WindowsFormsApplication4</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\147\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2C472E371BEDA0DD0E60E6BCCF6EE0E3CBEF6684</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Calulator v1.0_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C.Designer.cs">
+      <DependentUpon>C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerTreniaTheory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerTreniaTheory.Designer.cs">
+      <DependentUpon>PowerTreniaTheory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerArhimedTheory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerArhimedTheory.Designer.cs">
+      <DependentUpon>PowerArhimedTheory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Q.Designer.cs">
+      <DependentUpon>Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkEnergyTheoryPot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkEnergyTheoryPot.Designer.cs">
+      <DependentUpon>WorkEnergyTheoryPot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkEnergyTheoryKin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkEnergyTheoryKin.Designer.cs">
+      <DependentUpon>WorkEnergyTheoryKin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerNewtonTheory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerNewtonTheory.Designer.cs">
+      <DependentUpon>PowerNewtonTheory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerGukTheory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerGukTheory.Designer.cs">
+      <DependentUpon>PowerGukTheory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LawResistanceTheory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawResistanceTheory.Designer.cs">
+      <DependentUpon>LawResistanceTheory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LawPowerElectricityTheory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawPowerElectricityTheory.Designer.cs">
+      <DependentUpon>LawPowerElectricityTheory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LawJouleTheory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawJouleTheory.Designer.cs">
+      <DependentUpon>LawJouleTheory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LawOmFullTheory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawOmFullTheory.Designer.cs">
+      <DependentUpon>LawOmFullTheory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LawOm1Theory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawOm1Theory.Designer.cs">
+      <DependentUpon>LawOm1Theory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkEnergy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkEnergy.Designer.cs">
+      <DependentUpon>WorkEnergy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Amper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Amper.Designer.cs">
+      <DependentUpon>Amper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerGuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerGuk.Designer.cs">
+      <DependentUpon>PowerGuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LawOmFull.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawOmFull.Designer.cs">
+      <DependentUpon>LawOmFull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LawResistance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawResistance.Designer.cs">
+      <DependentUpon>LawResistance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerTrenia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerTrenia.Designer.cs">
+      <DependentUpon>PowerTrenia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LawPowerElectricity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawPowerElectricity.Designer.cs">
+      <DependentUpon>LawPowerElectricity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LawJoule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawJoule.Designer.cs">
+      <DependentUpon>LawJoule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LawElecricity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawElecricity.Designer.cs">
+      <DependentUpon>LawElecricity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LawOm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LawOm1.Designer.cs">
+      <DependentUpon>LawOm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MotionFreeFall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MotionFreeFall.Designer.cs">
+      <DependentUpon>MotionFreeFall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AaTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AaTest.Designer.cs">
+      <DependentUpon>AaTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Motion.U.C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Motion.U.C.Designer.cs">
+      <DependentUpon>Motion.U.C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerNewton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerNewton.Designer.cs">
+      <DependentUpon>PowerNewton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerArhimed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerArhimed.Designer.cs">
+      <DependentUpon>PowerArhimed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Power.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Power.Designer.cs">
+      <DependentUpon>Power.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Work.P.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Work.P.Designer.cs">
+      <DependentUpon>Work.P.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mechanics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mechanics.Designer.cs">
+      <DependentUpon>Mechanics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Motion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Motion.Designer.cs">
+      <DependentUpon>Motion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Motion.U.A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Motion.U.A.Designer.cs">
+      <DependentUpon>Motion.U.A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MotionU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MotionU.Designer.cs">
+      <DependentUpon>MotionU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Work.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Work.Designer.cs">
+      <DependentUpon>Work.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Work.H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Work.H.Designer.cs">
+      <DependentUpon>Work.H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Work.E.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Work.E.Designer.cs">
+      <DependentUpon>Work.E.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="C.resx">
+      <DependentUpon>C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerTreniaTheory.resx">
+      <DependentUpon>PowerTreniaTheory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerArhimedTheory.resx">
+      <DependentUpon>PowerArhimedTheory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Q.resx">
+      <DependentUpon>Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkEnergyTheoryPot.resx">
+      <DependentUpon>WorkEnergyTheoryPot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkEnergyTheoryKin.resx">
+      <DependentUpon>WorkEnergyTheoryKin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerNewtonTheory.resx">
+      <DependentUpon>PowerNewtonTheory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerGukTheory.resx">
+      <DependentUpon>PowerGukTheory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawResistanceTheory.resx">
+      <DependentUpon>LawResistanceTheory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawPowerElectricityTheory.resx">
+      <DependentUpon>LawPowerElectricityTheory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawJouleTheory.resx">
+      <DependentUpon>LawJouleTheory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawOmFullTheory.resx">
+      <DependentUpon>LawOmFullTheory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawOm1Theory.resx">
+      <DependentUpon>LawOm1Theory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkEnergy.resx">
+      <DependentUpon>WorkEnergy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Amper.resx">
+      <DependentUpon>Amper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerGuk.resx">
+      <DependentUpon>PowerGuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawOmFull.resx">
+      <DependentUpon>LawOmFull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawResistance.resx">
+      <DependentUpon>LawResistance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerTrenia.resx">
+      <DependentUpon>PowerTrenia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawPowerElectricity.resx">
+      <DependentUpon>LawPowerElectricity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawJoule.resx">
+      <DependentUpon>LawJoule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawElecricity.resx">
+      <DependentUpon>LawElecricity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LawOm1.resx">
+      <DependentUpon>LawOm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MotionFreeFall.resx">
+      <DependentUpon>MotionFreeFall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AaTest.resx">
+      <DependentUpon>AaTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Motion.U.C.resx">
+      <DependentUpon>Motion.U.C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerNewton.resx">
+      <DependentUpon>PowerNewton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerArhimed.resx">
+      <DependentUpon>PowerArhimed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Power.resx">
+      <DependentUpon>Power.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Work.P.resx">
+      <DependentUpon>Work.P.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Work.E.resx">
+      <DependentUpon>Work.E.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mechanics.resx">
+      <DependentUpon>Mechanics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Motion.resx">
+      <DependentUpon>Motion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Motion.U.A.resx">
+      <DependentUpon>Motion.U.A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MotionU.resx">
+      <DependentUpon>MotionU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Work.resx">
+      <DependentUpon>Work.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Work.H.resx">
+      <DependentUpon>Work.H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="Calulator v1.0_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 с пакетом обновления 1 %28SP1%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\неон осн 2_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\фонов.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\блок.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\фон.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\815a00377d3298c8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a50450b909e7cc5d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ab8618e1116ff4ca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lectro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\815a00377d3298c81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3eae418243a84107.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1805fea9eeed1892.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59098991107ae03c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d26c7609e0a3f119.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\калькулятор по физ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\трение.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\равноускоренное.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пот и кин.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пот и кин1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\упругость.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\равномерное.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\свободное падение.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\тяж.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\калькулятор по физ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\трение1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\упругость1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\упругость2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\упругость3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
