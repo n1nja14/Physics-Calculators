@@ -1,0 +1,95 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApplication4
+{
+    public partial class LawOm1 : Form
+    {
+        public LawOm1()
+        {
+            InitializeComponent();
+        }
+        
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double i, r, u;
+            if (textBox2.Text != String.Empty)
+               {
+                if (textBox1.Text != String.Empty)
+                {
+                    i = double.Parse(textBox1.Text);
+                    if (i == 0)
+                    {
+                        MessageBox.Show(
+                        "Деление на ноль невозможно!",
+                        "Внимание!",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error,
+                        MessageBoxDefaultButton.Button1,
+                        MessageBoxOptions.DefaultDesktopOnly);
+                    }
+                    else
+                    {
+                        u = double.Parse(textBox2.Text);
+                        r = u / i;
+                        textBox3.Text = Convert.ToString(r);
+                    }
+                }
+                else if (textBox3.Text != String.Empty)
+                {
+                    r = double.Parse(textBox3.Text);
+                    if (r == 0)
+                    {
+                        MessageBox.Show(
+                        "Деление на ноль невозможно!",
+                        "Внимание!",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error,
+                        MessageBoxDefaultButton.Button1,
+                        MessageBoxOptions.DefaultDesktopOnly);
+                    }
+                    else
+                    {
+                        u = double.Parse(textBox2.Text);
+                        i = u / r;
+                        textBox1.Text = Convert.ToString(i);
+                    }
+                }
+            }
+            else if (textBox1.Text != String.Empty)
+            {
+                if (textBox3.Text != String.Empty)
+                {
+                    i = double.Parse(textBox1.Text);
+                    r = double.Parse(textBox3.Text);
+                    u = r * i;
+                    textBox2.Text = Convert.ToString(u);
+                }
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            LawElecricity f = new LawElecricity();
+            f.StartPosition = FormStartPosition.Manual;
+            f.Location = Location;
+            f.Show();
+            Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            LawOm1Theory f = new LawOm1Theory();
+            f.Show();
+        }
+    }
+}
+
