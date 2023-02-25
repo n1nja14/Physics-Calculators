@@ -73,36 +73,6 @@ namespace WindowsFormsApplication4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _0209929924c78eb4 {
-            get {
-                object obj = ResourceManager.GetObject("0209929924c78eb4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _07450ac90d0ae9c6 {
-            get {
-                object obj = ResourceManager.GetObject("07450ac90d0ae9c6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _07450ac90d0ae9c61 {
-            get {
-                object obj = ResourceManager.GetObject("07450ac90d0ae9c61", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _1 {
             get {
                 object obj = ResourceManager.GetObject("-1", resourceCulture);
@@ -126,16 +96,6 @@ namespace WindowsFormsApplication4.Properties {
         internal static System.Drawing.Bitmap _1805fea9eeed1892 {
             get {
                 object obj = ResourceManager.GetObject("1805fea9eeed1892", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _3 {
-            get {
-                object obj = ResourceManager.GetObject("-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,16 +223,6 @@ namespace WindowsFormsApplication4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap image {
-            get {
-                object obj = ResourceManager.GetObject("image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap lectro {
             get {
                 object obj = ResourceManager.GetObject("lectro", resourceCulture);
@@ -326,16 +276,6 @@ namespace WindowsFormsApplication4.Properties {
         internal static System.Drawing.Bitmap пот_и_кин {
             get {
                 object obj = ResourceManager.GetObject("пот и кин", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap пот_и_кин1 {
-            get {
-                object obj = ResourceManager.GetObject("пот и кин1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -416,16 +356,6 @@ namespace WindowsFormsApplication4.Properties {
         internal static System.Drawing.Bitmap упругость1 {
             get {
                 object obj = ResourceManager.GetObject("упругость1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap упругость2 {
-            get {
-                object obj = ResourceManager.GetObject("упругость2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

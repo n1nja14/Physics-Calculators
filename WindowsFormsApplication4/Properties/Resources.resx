@@ -121,12 +121,6 @@
   <data name="трение1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\трение1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="упругость2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\упругость2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="07450ac90d0ae9c6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\07450ac90d0ae9c6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="815a00377d3298c8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\815a00377d3298c8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -160,9 +154,6 @@
   <data name="свободное падение" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\свободное падение.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="0209929924c78eb4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0209929924c78eb4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="пот и кин" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\пот и кин.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,9 +169,6 @@
   <data name="3eae418243a84107" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3eae418243a84107.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="пот и кин1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\пот и кин1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="-" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -189,9 +177,6 @@
   </data>
   <data name="неон осн 2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\неон осн 2_1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="07450ac90d0ae9c61" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\07450ac90d0ae9c61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="упругость1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\упругость1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -216,12 +201,6 @@
   </data>
   <data name="тяж" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\тяж.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="f61dc348937ba005" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\f61dc348937ba005.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
