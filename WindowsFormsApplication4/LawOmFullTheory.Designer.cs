@@ -38,9 +38,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.label1.Location = new System.Drawing.Point(21, 66);
+            this.label1.Location = new System.Drawing.Point(42, 127);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(542, 32);
+            this.label1.Size = new System.Drawing.Size(1058, 62);
             this.label1.TabIndex = 3;
             this.label1.Text = "Сила тока в цепи пропорциональна действующей в цепи ЭДС и обратно пропорциональна" +
     " \r\nсумме сопротивлений цепи и внутреннего сопротивления источника.\r\n";
@@ -49,19 +50,22 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-2, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(-4, 23);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(588, 337);
+            this.pictureBox1.Size = new System.Drawing.Size(1176, 648);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // LawOmFullTheory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 361);
+            this.ClientSize = new System.Drawing.Size(1168, 694);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.MaximizeBox = false;
             this.Name = "LawOmFullTheory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Теория: Закон Ома для полной цепи";

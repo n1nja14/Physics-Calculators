@@ -39,7 +39,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 56);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(558, 48);
+            this.label1.Size = new System.Drawing.Size(1081, 93);
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -55,12 +55,13 @@
             // 
             // PowerTreniaTheory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.MaximizeBox = false;
             this.Name = "PowerTreniaTheory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Теория: Сила трения";

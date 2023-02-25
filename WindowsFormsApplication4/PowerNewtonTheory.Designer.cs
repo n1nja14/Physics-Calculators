@@ -40,7 +40,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(170, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 15);
+            this.label1.Size = new System.Drawing.Size(0, 29);
             this.label1.TabIndex = 0;
             // 
             // label2
@@ -50,7 +50,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.label2.Location = new System.Drawing.Point(7, 59);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(570, 32);
+            this.label2.Size = new System.Drawing.Size(1096, 62);
             this.label2.TabIndex = 1;
             this.label2.Text = "Второй закон Ньютона - дифференциальный закон механического движения, описывающий" +
     " \r\nзависимость ускорения тела от равнодействующей всех приложенных к телу сил и " +
@@ -68,13 +68,14 @@
             // 
             // PowerNewtonTheory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.MaximizeBox = false;
             this.Name = "PowerNewtonTheory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Теория: Второй закон Ньютона";

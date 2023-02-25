@@ -197,7 +197,6 @@
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApplication4.Properties.Resources.упругость2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.button2;
             this.ClientSize = new System.Drawing.Size(1200, 960);
@@ -216,6 +215,7 @@
             this.Controls.Add(this.textBox1);
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1226, 1031);
             this.MinimumSize = new System.Drawing.Size(1200, 960);
             this.Name = "PowerGuk";

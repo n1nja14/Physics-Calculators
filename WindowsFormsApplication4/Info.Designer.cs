@@ -155,6 +155,7 @@
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1594, 1084);
             this.MinimumSize = new System.Drawing.Size(1594, 1084);
             this.Name = "Info";

@@ -371,6 +371,7 @@
             this.Controls.Add(this.textBox1);
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1226, 1031);
             this.MinimumSize = new System.Drawing.Size(1200, 960);
             this.Name = "Form5";

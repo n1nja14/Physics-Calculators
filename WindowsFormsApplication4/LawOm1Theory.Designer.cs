@@ -39,9 +39,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.label1.Location = new System.Drawing.Point(26, 24);
+            this.label1.Location = new System.Drawing.Point(52, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(536, 32);
+            this.label1.Size = new System.Drawing.Size(1052, 62);
             this.label1.TabIndex = 0;
             this.label1.Text = "Сила тока на участке электрической цепи прямо пропорциональна напряжению на конца" +
     "х\r\nучастка и обратно пропорциональна его сопротивлению.";
@@ -51,18 +52,21 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(585, 366);
+            this.pictureBox1.Size = new System.Drawing.Size(1170, 704);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // LawOm1Theory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 361);
+            this.ClientSize = new System.Drawing.Size(1168, 694);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.MaximizeBox = false;
             this.Name = "LawOm1Theory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Теория: закон Ома для участка цепи";

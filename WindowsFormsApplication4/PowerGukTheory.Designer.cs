@@ -40,7 +40,7 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(9, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(566, 32);
+            this.label1.Size = new System.Drawing.Size(1093, 62);
             this.label1.TabIndex = 0;
             this.label1.Text = "Закон Гука - утверждение, согласно которому, деформация, возникающая в упругом те" +
     "ле \r\n(пружине, стержне, консоли, балке и т. д.), пропорциональна приложенной к э" +
@@ -58,13 +58,14 @@
             // 
             // PowerGukTheory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.MaximizeBox = false;
             this.Name = "PowerGukTheory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Теория: Закон Гука";

@@ -51,7 +51,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(180, 221);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(789, 360);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -65,7 +65,8 @@
             this.ClientSize = new System.Drawing.Size(1168, 694);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximizeBox = false;
             this.Name = "LawPowerElectricityTheory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Теория: Сила тока";

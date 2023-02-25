@@ -54,7 +54,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(274, 216);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(588, 400);
             this.pictureBox1.TabIndex = 1;
@@ -68,7 +68,8 @@
             this.ClientSize = new System.Drawing.Size(1168, 694);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximizeBox = false;
             this.Name = "PowerArhimedTheory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Теория: Закон Архимеда";

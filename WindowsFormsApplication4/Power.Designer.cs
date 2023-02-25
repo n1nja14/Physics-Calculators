@@ -123,6 +123,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1226, 1031);
             this.MinimumSize = new System.Drawing.Size(1200, 960);
             this.Name = "Power";
