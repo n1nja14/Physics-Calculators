@@ -29,7 +29,13 @@ namespace WindowsFormsApplication4
         {
             InitializeComponent();
         }
-
+        void Form_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             Main r = Main.get_instance();

@@ -149,7 +149,7 @@
             this.MinimumSize = new System.Drawing.Size(1200, 960);
             this.Name = "Main";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Главная страница";
             this.Load += new System.EventHandler(this.Main_Load);
             this.ResumeLayout(false);

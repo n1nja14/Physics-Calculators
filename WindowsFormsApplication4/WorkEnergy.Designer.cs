@@ -374,6 +374,7 @@
             this.Name = "WorkEnergy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Кинетическая и потенциальная энергия";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

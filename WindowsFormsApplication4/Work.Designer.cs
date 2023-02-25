@@ -126,6 +126,7 @@
             this.Name = "Work";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Работа и энергия";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.Load += new System.EventHandler(this.Form7_Load);
             this.ResumeLayout(false);
 

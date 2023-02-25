@@ -257,6 +257,7 @@
             this.Name = "LawJoule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Закон Джоуля-Ленца";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

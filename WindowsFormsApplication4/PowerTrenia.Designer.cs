@@ -205,6 +205,7 @@
             this.Name = "PowerTrenia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = " ";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

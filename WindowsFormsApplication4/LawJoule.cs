@@ -25,15 +25,13 @@ namespace WindowsFormsApplication4
                 return Instance;
             }
         }
-        private void LawJoule_Closing(object sender, CancelEventArgs e)
+        void Form_FormClosing(object sender, FormClosingEventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
         }
-/*        LawOm1 f = LawOm1.get_instance();
-        f.StartPosition = FormStartPosition.Manual;
-        f.Location = Location;
-        f.Show();
-        Hide();*/
         public LawJoule()
         {
             InitializeComponent();
@@ -173,11 +171,11 @@ namespace WindowsFormsApplication4
 
         private void button2_Click(object sender, EventArgs e)
         {
-            LawElecricity f = new LawElecricity();
+            LawElecricity f = LawElecricity.get_instance();
             f.StartPosition = FormStartPosition.Manual;
             f.Location = Location;
             f.Show();
-            Close();
+            Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)

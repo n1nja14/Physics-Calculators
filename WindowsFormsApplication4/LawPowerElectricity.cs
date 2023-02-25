@@ -25,9 +25,12 @@ namespace WindowsFormsApplication4
                 return Instance;
             }
         }
-        private void LawPowerElectricity_Closing(object sender, CancelEventArgs e)
+        void Form_FormClosing(object sender, FormClosingEventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
         }
         private void button1_Click(object sender, EventArgs e)
         {

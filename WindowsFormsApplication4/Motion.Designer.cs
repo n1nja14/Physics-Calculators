@@ -125,7 +125,7 @@
             this.Name = "Motion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Движение";
-
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.Load += new System.EventHandler(this.Motion_Load);
             this.ResumeLayout(false);
 

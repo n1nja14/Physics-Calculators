@@ -221,6 +221,7 @@
             this.Name = "PowerGuk";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Закон Гука";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

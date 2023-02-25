@@ -33,10 +33,17 @@ namespace WindowsFormsApplication4
             f.Show();
             Hide();
         }
-        private void LawElecricity_Closing(object sender, CancelEventArgs e)
+        void Form_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
+        }
+/*        private void Calculator_Closing(object sender, CancelEventArgs e)
         {
             System.Windows.Forms.Application.Exit();
-        }
+        }*/
         public Calculator()
         {
             InitializeComponent();

@@ -258,6 +258,7 @@
             this.Name = "LawOmFull";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "7";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

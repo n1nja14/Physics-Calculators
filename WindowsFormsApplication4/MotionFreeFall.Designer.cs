@@ -211,6 +211,7 @@
             this.Name = "MotionFreeFall";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Свободное падение тел";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.Load += new System.EventHandler(this.Form10_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

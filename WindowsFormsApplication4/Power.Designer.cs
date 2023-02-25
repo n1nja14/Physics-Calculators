@@ -128,6 +128,7 @@
             this.Name = "Power";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Силы и законы";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.Load += new System.EventHandler(this.Power_Load);
             this.ResumeLayout(false);
 

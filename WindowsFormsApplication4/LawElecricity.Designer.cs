@@ -139,7 +139,7 @@
             this.Name = "LawElecricity";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Электродинамика";
-
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.ResumeLayout(false);
 
         }

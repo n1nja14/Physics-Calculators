@@ -221,7 +221,7 @@
             this.Name = "LawOm1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Закон Ома на участке цепи";
-
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
