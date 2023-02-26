@@ -66,7 +66,6 @@
             this.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.MaximizeBox = false;
             this.Name = "WorkEnergyTheoryPot";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Теория: Потенциальная энергия";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

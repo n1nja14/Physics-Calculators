@@ -12,6 +12,19 @@ namespace WindowsFormsApplication4
 {
     public partial class PowerGukTheory : Form
     {
+        public static PowerGukTheory Instance;
+        public static PowerGukTheory get_instance()
+        {
+            if (Instance == null)
+            {
+                Instance = new PowerGukTheory();
+                return Instance;
+            }
+            else
+            {
+                return Instance;
+            }
+        }
         public PowerGukTheory()
         {
             InitializeComponent();

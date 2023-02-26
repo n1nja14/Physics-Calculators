@@ -12,14 +12,22 @@ namespace WindowsFormsApplication4
 {
     public partial class LawJouleTheory : Form
     {
+        public static LawJouleTheory Instance;
+        public static LawJouleTheory get_instance()
+        {
+            if (Instance == null)
+            {
+                Instance = new LawJouleTheory();
+                return Instance;
+            }
+            else
+            {
+                return Instance;
+            }
+        }
         public LawJouleTheory()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Close();
         }
     }
 }

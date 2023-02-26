@@ -98,6 +98,7 @@ namespace WindowsFormsApplication4
 
         private void button2_Click(object sender, EventArgs e)
         {
+            PowerTreniaTheory.get_instance().Hide();
             Power f = Power.get_instance();
             f.StartPosition = FormStartPosition.Manual;
             f.Location = Location;
@@ -107,7 +108,7 @@ namespace WindowsFormsApplication4
 
         private void button3_Click(object sender, EventArgs e)
         {
-            PowerTreniaTheory f = new PowerTreniaTheory();
+            PowerTreniaTheory f = PowerTreniaTheory.get_instance();
             f.Show();
         }
     }

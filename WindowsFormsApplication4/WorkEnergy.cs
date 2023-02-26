@@ -222,6 +222,8 @@ namespace WindowsFormsApplication4
 
         private void button2_Click(object sender, EventArgs e)
         {
+            WorkEnergyTheoryKin.get_instance().Hide();
+            WorkEnergyTheoryPot.get_instance().Hide();
             Work f = Work.get_instance();
             f.StartPosition = FormStartPosition.Manual;
             f.Location = Location;
@@ -231,13 +233,13 @@ namespace WindowsFormsApplication4
 
         private void button3_Click(object sender, EventArgs e)
         {
-            WorkEnergyTheoryKin f = new WorkEnergyTheoryKin();
+            WorkEnergyTheoryKin f = WorkEnergyTheoryKin.get_instance();
             f.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            WorkEnergyTheoryPot f = new WorkEnergyTheoryPot();
+            WorkEnergyTheoryPot f = WorkEnergyTheoryPot.get_instance();
             f.Show();
         }
     }

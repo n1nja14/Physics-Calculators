@@ -67,7 +67,7 @@
             this.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.MaximizeBox = false;
             this.Name = "PowerGukTheory";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Теория: Закон Гука";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

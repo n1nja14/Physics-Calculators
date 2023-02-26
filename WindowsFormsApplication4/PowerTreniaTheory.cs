@@ -12,6 +12,19 @@ namespace WindowsFormsApplication4
 {
     public partial class PowerTreniaTheory : Form
     {
+        public static PowerTreniaTheory Instance;
+        public static PowerTreniaTheory get_instance()
+        {
+            if (Instance == null)
+            {
+                Instance = new PowerTreniaTheory();
+                return Instance;
+            }
+            else
+            {
+                return Instance;
+            }
+        }
         public PowerTreniaTheory()
         {
             InitializeComponent();

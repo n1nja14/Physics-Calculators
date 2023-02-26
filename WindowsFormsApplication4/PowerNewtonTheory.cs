@@ -12,6 +12,19 @@ namespace WindowsFormsApplication4
 {
     public partial class PowerNewtonTheory : Form
     {
+        public static PowerNewtonTheory Instance;
+        public static PowerNewtonTheory get_instance()
+        {
+            if (Instance == null)
+            {
+                Instance = new PowerNewtonTheory();
+                return Instance;
+            }
+            else
+            {
+                return Instance;
+            }
+        }
         public PowerNewtonTheory()
         {
             InitializeComponent();

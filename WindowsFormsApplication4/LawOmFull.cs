@@ -40,6 +40,7 @@ namespace WindowsFormsApplication4
 
         private void button2_Click(object sender, EventArgs e)
         {
+            LawOmFullTheory.get_instance().Hide();
             LawElecricity f = LawElecricity.get_instance();
             f.StartPosition = FormStartPosition.Manual;
             f.Location = Location;
@@ -141,9 +142,7 @@ namespace WindowsFormsApplication4
 
         private void button3_Click(object sender, EventArgs e)
         {
-            LawOmFullTheory f = new LawOmFullTheory();
-            f.StartPosition = FormStartPosition.Manual;
-            f.Location = Location;
+            LawOmFullTheory f = LawOmFullTheory.get_instance();
             f.Show();
         }
     }

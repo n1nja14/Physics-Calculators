@@ -12,6 +12,19 @@ namespace WindowsFormsApplication4
 {
     public partial class LawResistanceTheory : Form
     {
+        public static LawResistanceTheory Instance;
+        public static LawResistanceTheory get_instance()
+        {
+            if (Instance == null)
+            {
+                Instance = new LawResistanceTheory();
+                return Instance;
+            }
+            else
+            {
+                return Instance;
+            }
+        }
         public LawResistanceTheory()
         {
             InitializeComponent();

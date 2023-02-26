@@ -12,6 +12,19 @@ namespace WindowsFormsApplication4
 {
     public partial class LawPowerElectricityTheory : Form
     {
+        public static LawPowerElectricityTheory Instance;
+        public static LawPowerElectricityTheory get_instance()
+        {
+            if (Instance == null)
+            {
+                Instance = new LawPowerElectricityTheory();
+                return Instance;
+            }
+            else
+            {
+                return Instance;
+            }
+        }
         public LawPowerElectricityTheory()
         {
             InitializeComponent();

@@ -12,6 +12,19 @@ namespace WindowsFormsApplication4
 {
     public partial class PowerArhimedTheory : Form
     {
+        public static PowerArhimedTheory Instance;
+        public static PowerArhimedTheory get_instance()
+        {
+            if (Instance == null)
+            {
+                Instance = new PowerArhimedTheory();
+                return Instance;
+            }
+            else
+            {
+                return Instance;
+            }
+        }
         public PowerArhimedTheory()
         {
             InitializeComponent();

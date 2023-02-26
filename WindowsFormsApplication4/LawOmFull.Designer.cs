@@ -258,7 +258,7 @@
             this.MinimumSize = new System.Drawing.Size(1200, 960);
             this.Name = "LawOmFull";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "7";
+            this.Text = "Закон Ома для полной цепи";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();

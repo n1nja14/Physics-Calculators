@@ -64,7 +64,7 @@
             this.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.MaximizeBox = false;
             this.Name = "WorkEnergyTheoryKin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Теория: Кинетическая энергия";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

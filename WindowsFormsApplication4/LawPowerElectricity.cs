@@ -34,6 +34,7 @@ namespace WindowsFormsApplication4
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            LawPowerElectricityTheory.get_instance().Hide();
             LawElecricity f = LawElecricity.get_instance();
             f.StartPosition = FormStartPosition.Manual;
             f.Location = Location;
@@ -109,7 +110,7 @@ namespace WindowsFormsApplication4
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            LawPowerElectricityTheory f = new LawPowerElectricityTheory();
+            LawPowerElectricityTheory f = LawPowerElectricityTheory.get_instance();
             f.Show();
         }
     }

@@ -363,6 +363,16 @@ namespace WindowsFormsApplication4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap упругость2 {
+            get {
+                object obj = ResourceManager.GetObject("упругость2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap упругость3 {
             get {
                 object obj = ResourceManager.GetObject("упругость3", resourceCulture);

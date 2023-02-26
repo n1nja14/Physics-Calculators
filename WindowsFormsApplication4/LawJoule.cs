@@ -169,19 +169,21 @@ namespace WindowsFormsApplication4
             }
         }
 
+        
+        private void button3_Click(object sender, EventArgs e)
+        {
+            LawJouleTheory f = LawJouleTheory.get_instance();
+            f.Show();
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
+            LawJouleTheory.get_instance().Hide();
             LawElecricity f = LawElecricity.get_instance();
             f.StartPosition = FormStartPosition.Manual;
             f.Location = Location;
             f.Show();
             Hide();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            LawJouleTheory f = new LawJouleTheory();
-            f.Show();
         }
     }
 }

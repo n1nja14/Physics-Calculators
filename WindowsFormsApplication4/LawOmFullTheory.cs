@@ -12,6 +12,19 @@ namespace WindowsFormsApplication4
 {
     public partial class LawOmFullTheory : Form
     {
+        public static LawOmFullTheory Instance;
+        public static LawOmFullTheory get_instance()
+        {
+            if (Instance == null)
+            {
+                Instance = new LawOmFullTheory();
+                return Instance;
+            }
+            else
+            {
+                return Instance;
+            }
+        }
         public LawOmFullTheory()
         {
             InitializeComponent();

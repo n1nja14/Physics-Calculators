@@ -12,14 +12,22 @@ namespace WindowsFormsApplication4
 {
     public partial class LawOm1Theory : Form
     {
+        public static LawOm1Theory Instance;
+        public static LawOm1Theory get_instance()
+        {
+            if (Instance == null)
+            {
+                Instance = new LawOm1Theory();
+                return Instance;
+            }
+            else
+            {
+                return Instance;
+            }
+        }
         public LawOm1Theory()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Close();
         }
     }
 }

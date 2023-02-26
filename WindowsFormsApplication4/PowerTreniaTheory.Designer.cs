@@ -63,7 +63,7 @@
             this.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.MaximizeBox = false;
             this.Name = "PowerTreniaTheory";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Теория: Сила трения";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
