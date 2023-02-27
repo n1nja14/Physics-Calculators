@@ -91,6 +91,11 @@
     <Compile Include="PowerArhimedTheory.Designer.cs">
       <DependentUpon>PowerArhimedTheory.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Q.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,11 +233,6 @@
     </Compile>
     <Compile Include="AaTest.Designer.cs">
       <DependentUpon>AaTest.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Motion.U.C.cs">
       <SubType>Form</SubType>
@@ -580,6 +580,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\упругость4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\архи.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
