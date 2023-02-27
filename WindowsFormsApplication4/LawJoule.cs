@@ -46,7 +46,6 @@ namespace WindowsFormsApplication4
                 {
                     if (textBox4.Text != String.Empty)
                     {
-                        
                         i = double.Parse(textBox2.Text);
                         t = double.Parse(textBox3.Text);
                         r = double.Parse(textBox4.Text);

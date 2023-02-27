@@ -59,43 +59,56 @@ namespace WindowsFormsApplication4
                     double x, t1, t2;
                     s = double.Parse(textBox1.Text);
                     v0 = double.Parse(textBox3.Text);
-                    x = Math.Sqrt((2 * v0 * 2 * v0) - (4 * (-2) * s * 9.8));
-                    t1 = (-2 * v0 - x) / (2 * 9.8);
-                    t2 = (-2 * v0 + x) / (2 * 9.8);
-                    if (t1 == t2)
+                    if ((2 * v0 * 2 * v0) - (4 * (-2) * s * 9.8) < 0)
                     {
-                        textBox2.Text = "t=" + string.Format("{0:f2}", t1);
+                        MessageBox.Show(
+                        "Нет решений!",
+                        "Внимание!",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error,
+                        MessageBoxDefaultButton.Button1,
+                        MessageBoxOptions.DefaultDesktopOnly);
                     }
-                    else if (t1 > 0 && t2 < 0)
-                    {
-                        textBox2.Text = "t=" + string.Format("{0:f2}", t1);
-                    }
-                    else if (t1 < 0 && t2 > 0)
-                    {
-                        textBox2.Text = "t=" + string.Format("{0:f2}", t2);
-                    }
-                    else if (t1 > 0 && t2 > 0)
-                    {
-                        textBox2.Text = "t1=" + string.Format("{0:f2}", t1) + " ||t2=" + string.Format("{0:f2}", t2);
-                    }
+                    
                     else
                     {
-                        textBox2.Text = "Корней нет";
+                        x = Math.Sqrt((2 * v0 * 2 * v0) - (4 * (-2) * s * 9.8));
+                        t1 = (-2 * v0 - x) / (2 * 9.8);
+                        t2 = (-2 * v0 + x) / (2 * 9.8);
+                        if (t1 == t2)
+                        {
+                            textBox2.Text = "t=" + string.Format("{0:f2}", t1);
+                        }
+                        else if (t1 > 0 && t2 < 0)
+                        {
+                            textBox2.Text = "t=" + string.Format("{0:f2}", t1);
+                        }
+                        else if (t1 < 0 && t2 > 0)
+                        {
+                            textBox2.Text = "t=" + string.Format("{0:f2}", t2);
+                        }
+                        else if (t1 > 0 && t2 > 0)
+                        {
+                            textBox2.Text = "t1=" + string.Format("{0:f2}", t1) + " ||t2=" + string.Format("{0:f2}", t2);
+                        }
+                        else
+                        {
+                            textBox2.Text = "Корней нет";
+                        }
                     }
                 }
-            }
-            else if (textBox1.Text != String.Empty)
-            {
-                if (textBox2.Text != String.Empty)
+                else if (textBox1.Text != String.Empty)
                 {
-                    t = double.Parse(textBox2.Text);
-                    s = double.Parse(textBox1.Text);
-                    v0 = (s - ((9.8*t *t )/ 2)) / t;
-                    textBox3.Text = Convert.ToString(v0);
+                    if (textBox2.Text != String.Empty)
+                    {
+                        t = double.Parse(textBox2.Text);
+                        s = double.Parse(textBox1.Text);
+                        v0 = (s - ((9.8 * t * t) / 2)) / t;
+                        textBox3.Text = Convert.ToString(v0);
+                    }
                 }
             }
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             Motion f = Motion.get_instance();

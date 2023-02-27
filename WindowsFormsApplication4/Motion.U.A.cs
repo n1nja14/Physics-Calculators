@@ -269,42 +269,61 @@ namespace WindowsFormsApplication4
                             s = double.Parse(textBox2.Text);
                             v0 = double.Parse(textBox5.Text);
                             a = double.Parse(textBox1.Text);
-                            x = Math.Sqrt((2 * v0 * 2 * v0) - (4 * (-2) * s * a));
-                            t1 = (-2 * v0 - x) / (2 * a);
-                            t2 = (-2 * v0 + x) / (2 * a);
-                            if (t1 == t2)
+                            if ((2 * v0 * 2 * v0) - (4 * (-2) * s * a) < 0)
                             {
-                                textBox3.Text = "t=" + string.Format("{0:f2}", t1);
+                                MessageBox.Show(
+                                "Нет решений!",
+                                "Внимание!",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error,
+                                MessageBoxDefaultButton.Button1,
+                                MessageBoxOptions.DefaultDesktopOnly);
                             }
-                            else if (t1 > 0 && t2 < 0)
+                            else if (a == 0)
                             {
-                                textBox3.Text = "t=" + string.Format("{0:f2}", t1);
-                            }
-                            else if (t1 < 0 && t2 > 0)
-                            {
-                                textBox3.Text = "t=" + string.Format("{0:f2}", t2);
-                            }
-                            else if (t1 > 0 && t2 > 0)
-                            {
-                                textBox3.Text = "t=" + string.Format("{0:f2}", t1) + " ||t=" + string.Format("{0:f2}", t2);
+                                MessageBox.Show(
+                                "Нет решений!",
+                                "Внимание!",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error,
+                                MessageBoxDefaultButton.Button1,
+                                MessageBoxOptions.DefaultDesktopOnly);
                             }
                             else
                             {
-                                textBox3.Text = "Корней нет";
+                                x = Math.Sqrt((2 * v0 * 2 * v0) - (4 * (-2) * s * a));
+                                t1 = (-2 * v0 - x) / (2 * a);
+                                t2 = (-2 * v0 + x) / (2 * a);
+                                if (t1 == t2)
+                                {
+                                    textBox3.Text = "t=" + string.Format("{0:f2}", t1);
+                                }
+                                else if (t1 > 0 && t2 < 0)
+                                {
+                                    textBox3.Text = "t=" + string.Format("{0:f2}", t1);
+                                }
+                                else if (t1 < 0 && t2 > 0)
+                                {
+                                    textBox3.Text = "t=" + string.Format("{0:f2}", t2);
+                                }
+                                else if (t1 > 0 && t2 > 0)
+                                {
+                                    textBox3.Text = "t=" + string.Format("{0:f2}", t1) + " ||t=" + string.Format("{0:f2}", t2);
+                                }
+                                else
+                                {
+                                    textBox3.Text = "Корней нет";
+                                }
                             }
                         }
                     }
                 }
             }
         }
-
         private void label8_Click(object sender, EventArgs e)
         {
 
         }
-
-
-
         private void button2_Click(object sender, EventArgs e)
         {
             Motion f = Motion.get_instance();
@@ -313,7 +332,6 @@ namespace WindowsFormsApplication4
             f.Show();
             Hide();
         }
-
         private void label11_Click(object sender, EventArgs e)
         {
 
