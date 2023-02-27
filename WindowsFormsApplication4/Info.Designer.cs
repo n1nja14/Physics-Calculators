@@ -148,6 +148,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label5.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label5.Location = new System.Drawing.Point(965, 158);
@@ -160,6 +161,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label6.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label6.Location = new System.Drawing.Point(965, 194);
@@ -172,6 +174,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label9.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label9.Location = new System.Drawing.Point(965, 266);
@@ -184,6 +187,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label10.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label10.Location = new System.Drawing.Point(965, 230);
@@ -196,6 +200,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label11.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label11.Location = new System.Drawing.Point(965, 302);
@@ -208,6 +213,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
+            this.label18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label18.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label18.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label18.Location = new System.Drawing.Point(965, 516);
@@ -220,6 +226,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
+            this.label19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label19.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label19.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label19.Location = new System.Drawing.Point(965, 480);
@@ -232,6 +239,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
+            this.label20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label20.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label20.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label20.Location = new System.Drawing.Point(965, 444);
@@ -244,6 +252,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
+            this.label21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label21.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label21.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label21.Location = new System.Drawing.Point(965, 408);
@@ -256,6 +265,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
+            this.label23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label23.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label23.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label23.Location = new System.Drawing.Point(965, 734);
@@ -268,6 +278,7 @@
             // label24
             // 
             this.label24.AutoSize = true;
+            this.label24.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label24.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label24.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label24.Location = new System.Drawing.Point(965, 698);
@@ -280,6 +291,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
+            this.label25.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label25.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label25.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label25.Location = new System.Drawing.Point(965, 662);
@@ -292,6 +304,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
+            this.label26.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label26.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label26.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label26.Location = new System.Drawing.Point(965, 626);
@@ -304,6 +317,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
+            this.label22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label22.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label22.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label22.Location = new System.Drawing.Point(965, 942);
@@ -316,6 +330,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
+            this.label27.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label27.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label27.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label27.Location = new System.Drawing.Point(965, 906);
@@ -328,6 +343,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
+            this.label28.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label28.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label28.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label28.Location = new System.Drawing.Point(965, 870);
@@ -340,6 +356,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
+            this.label29.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label29.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label29.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label29.Location = new System.Drawing.Point(965, 834);
