@@ -274,11 +274,23 @@ namespace WindowsFormsApplication4
                             t2 = (-2 * v0 + x) / (2 * a);
                             if (t1 == t2)
                             {
-                                textBox3.Text = Convert.ToString(t1);
+                                textBox3.Text = "t=" + string.Format("{0:f2}", t1);
+                            }
+                            else if (t1 > 0 && t2 < 0)
+                            {
+                                textBox3.Text = "t=" + string.Format("{0:f2}", t1);
+                            }
+                            else if (t1 < 0 && t2 > 0)
+                            {
+                                textBox3.Text = "t=" + string.Format("{0:f2}", t2);
+                            }
+                            else if (t1 > 0 && t2 > 0)
+                            {
+                                textBox3.Text = "t=" + string.Format("{0:f2}", t1) + " ||t=" + string.Format("{0:f2}", t2);
                             }
                             else
                             {
-                                textBox3.Text = "1 кор:" + string.Format("{0:f2}", t1) + " ||2 кор:" + string.Format("{0:f2}", t2);
+                                textBox3.Text = "Корней нет";
                             }
                         }
                     }
