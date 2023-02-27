@@ -172,9 +172,9 @@
             this.radioButton2.Location = new System.Drawing.Point(692, 301);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(6);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(166, 33);
+            this.radioButton2.Size = new System.Drawing.Size(168, 33);
             this.radioButton2.TabIndex = 1;
-            this.radioButton2.Text = "Вычетание";
+            this.radioButton2.Text = "Вычитание";
             this.radioButton2.UseVisualStyleBackColor = false;
             // 
             // radioButton3

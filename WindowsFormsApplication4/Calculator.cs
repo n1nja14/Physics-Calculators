@@ -40,10 +40,6 @@ namespace WindowsFormsApplication4
                 Application.Exit();
             }
         }
-/*        private void Calculator_Closing(object sender, CancelEventArgs e)
-        {
-            System.Windows.Forms.Application.Exit();
-        }*/
         public Calculator()
         {
             InitializeComponent();
