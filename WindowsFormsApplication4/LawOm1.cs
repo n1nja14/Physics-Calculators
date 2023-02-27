@@ -36,8 +36,15 @@ namespace WindowsFormsApplication4
         {
             InitializeComponent();
         }
-        
 
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+            if (!Char.IsDigit(number) && number != 8)
+            {
+                e.Handled = true;
+            }
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {

@@ -36,7 +36,15 @@ namespace WindowsFormsApplication4
         {
             InitializeComponent();
         }
-        
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+            if (!Char.IsDigit(number) && number != 8) // цифры и клавиша BackSpace
+            {
+                e.Handled = true;
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             double q, i, t, r;
@@ -83,10 +91,6 @@ namespace WindowsFormsApplication4
                             textBox4.Text = Convert.ToString(r);
                         }
                     }
-                    else
-                    {
-
-                    }
                 }
                 else if (textBox4.Text != String.Empty)
                 {
@@ -122,6 +126,7 @@ namespace WindowsFormsApplication4
                         }
                     }
                 }
+
             }
             else if (textBox4.Text != String.Empty)
             {
@@ -169,6 +174,16 @@ namespace WindowsFormsApplication4
                         }
                     }
                 }
+            }
+            else
+            {
+                MessageBox.Show(
+                "Осталось пустое поле!",
+                "Внимание!",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error,
+                MessageBoxDefaultButton.Button1,
+                MessageBoxOptions.DefaultDesktopOnly);
             }
         }
 

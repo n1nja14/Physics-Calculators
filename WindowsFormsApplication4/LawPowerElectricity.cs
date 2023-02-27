@@ -50,7 +50,14 @@ namespace WindowsFormsApplication4
         {
 
         }
-
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+            if (!Char.IsDigit(number) && number != 8)
+            {
+                e.Handled = true;
+            }
+        }
         private void button2_Click(object sender, EventArgs e)
         {
             double i, q, t;
