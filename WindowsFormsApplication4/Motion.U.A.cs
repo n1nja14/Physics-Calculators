@@ -301,6 +301,11 @@ namespace WindowsFormsApplication4
             f.Show();
             Hide();
         }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
