@@ -40,7 +40,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(170, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 15);
+            this.label1.Size = new System.Drawing.Size(0, 29);
             this.label1.TabIndex = 0;
             // 
             // label2
@@ -50,7 +50,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 11F);
             this.label2.Location = new System.Drawing.Point(36, 44);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(513, 85);
+            this.label2.Size = new System.Drawing.Size(1048, 170);
             this.label2.TabIndex = 1;
             this.label2.Text = resources.GetString("label2.Text");
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -66,7 +66,7 @@
             // 
             // PowerNewtonTheory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.label2);
@@ -77,6 +77,7 @@
             this.Name = "PowerNewtonTheory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Теория: Второй закон Ньютона";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -73,6 +73,7 @@
             this.Name = "PowerArhimedTheory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Теория: Закон Архимеда";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

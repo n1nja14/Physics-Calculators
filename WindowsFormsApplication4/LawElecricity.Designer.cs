@@ -128,7 +128,7 @@
             this.BackgroundImage = global::WindowsFormsApplication4.Properties.Resources.lectro;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.button4;
-            this.ClientSize = new System.Drawing.Size(1200, 960);
+            this.ClientSize = new System.Drawing.Size(1200, 889);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -137,6 +137,8 @@
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1226, 1033);
+            this.MinimumSize = new System.Drawing.Size(1200, 960);
             this.Name = "LawElecricity";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Электродинамика";

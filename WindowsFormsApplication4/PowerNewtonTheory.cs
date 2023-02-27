@@ -25,6 +25,14 @@ namespace WindowsFormsApplication4
                 return Instance;
             }
         }
+        void Form_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                e.Cancel = true;
+                Hide();
+            }
+        }
         public PowerNewtonTheory()
         {
             InitializeComponent();

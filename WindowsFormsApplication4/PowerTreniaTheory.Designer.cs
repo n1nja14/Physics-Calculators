@@ -40,7 +40,7 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 11F);
             this.label1.Location = new System.Drawing.Point(1, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(583, 51);
+            this.label1.Size = new System.Drawing.Size(1204, 102);
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -57,7 +57,7 @@
             // 
             // PowerTreniaTheory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.label1);
@@ -67,6 +67,7 @@
             this.Name = "PowerTreniaTheory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Теория: Сила трения";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

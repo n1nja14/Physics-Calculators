@@ -25,6 +25,10 @@ namespace WindowsFormsApplication4
                 return Instance;
             }
         }
+        void Form_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
         public LawPowerElectricityTheory()
         {
             InitializeComponent();
@@ -33,6 +37,15 @@ namespace WindowsFormsApplication4
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void LawPowerElectricityTheory_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                e.Cancel = true;
+                Hide();
+            }
         }
     }
 }

@@ -30,9 +30,13 @@ namespace WindowsFormsApplication4
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        void Form_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Close();
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                e.Cancel = true;
+                Hide();
+            }
         }
     }
 }
