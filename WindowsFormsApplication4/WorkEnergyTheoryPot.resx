@@ -117,11 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Потенциальной энергией обладают тела, поднятые над поверхностью земли, 
+потому что они могут совершить работу при падении.
+ Фактически эту работу совершает сила тяжести, 
+поэтому здесь говорят о потенциальной энергии тяжести. </value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAlgAAAGQCAIAAAD9V4nPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAXCJJREFUeF7t3QVcVOn6B/BDd3d32t3YHbvuuupaq2thYosgIBjY3ZQitkiXiCB2
+        DwAACw8BkvkDpQAAXCJJREFUeF7t3QVcVOn6B/BDd3d32t3YHbvuuupaq2thYosgIBjY3ZQitkiXiCB2
         59oJYtE1MP1/ZoZ1d7279zr+dUHm9/08l8+cc57zzju4d368k4wQAABAhiEIAQBApiEIAQBApiEIAQBA
         piEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBA
         piEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBApiEIAQBA

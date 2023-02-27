@@ -38,17 +38,16 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(4, 39);
+            this.label1.Location = new System.Drawing.Point(54, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1099, 62);
+            this.label1.Size = new System.Drawing.Size(458, 64);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Потенциальная энергия - это энергия, которую имеет тело или система тела в зависи" +
-    "мости от \r\nположения тела (системы тела) в пространстве.";
+            this.label1.Text = resources.GetString("label1.Text");
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-13, -36);
+            this.pictureBox1.Location = new System.Drawing.Point(170, -49);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(599, 397);
             this.pictureBox1.TabIndex = 1;
@@ -56,7 +55,7 @@
             // 
             // WorkEnergyTheoryPot
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;

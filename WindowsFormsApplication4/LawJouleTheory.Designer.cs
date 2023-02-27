@@ -38,34 +38,30 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.label1.Location = new System.Drawing.Point(8, 71);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(1, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1122, 62);
+            this.label1.Size = new System.Drawing.Size(579, 80);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Количество теплоты, выделяющееся при прохождении тока в проводнике, прямо \r\nпропо" +
-    "рционально квадрату силы тока, сопротивлению проводника и времени прохождения то" +
-    "ка";
+            this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1, 31);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 16);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1152, 648);
+            this.pictureBox1.Size = new System.Drawing.Size(576, 337);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // LawJouleTheory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1168, 694);
+            this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "LawJouleTheory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

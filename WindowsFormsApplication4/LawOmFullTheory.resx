@@ -117,11 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Сила тока в цепи пропорциональна действующей в цепи ЭДС и обратно пропорциональна 
+сумме сопротивлений цепи и внутреннего сопротивления источника.
+Для большинства схем амперы – слишком большие величины, а омы – слишком маленькие. 
+Поэтому в формулу можно подставлять миллиамперы и килоомы.
+ Если силу тока подставлять в миллиамперах (мА),
+ то сопротивление обязательно должно быть в килоомах (кОм) и наоборот. 
+Напряжение – всегда в вольтах.
+
+</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAlgAAAGQCAYAAAByNR6YAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAFsFJREFUeF7t3XeMdXlZB3BgKS69KcWCICxNMEpCU+wUQRGUIoIg7Q9NDCLFQoBF
+        EAAACxABrSO9dQAAFsFJREFUeF7t3XeMdXlZB3BgKS69KcWCICxNMEpCU+wUQRGUIoIg7Q9NDCLFQoBF
         ekAFoxBgBXUVAhhEg4CA1BUIAZaOoigL0kFgqbIs+DyTOeHu7DPvzPu8d2bO/Z3PN/mE3O9c5pZ3J+fJ
         ub/7Oxf41re+BQDAGpUlAAB9ZQkAQF9ZAgDQV5YAAPSVJQAAfWUJAEBfWQIA0FeWAAD0lSUAAH1lCQBA
         X1kCANBXlgAA9JUlAAB9ZQkAQF9ZAgDQV5YAAPSVJQAAfWUJAEBfWQIA0FeWAAD0lSUAAH1lCQBAX1kC

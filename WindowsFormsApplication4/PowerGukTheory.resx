@@ -117,11 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Закон Гука - утверждение, согласно которому, деформация, возникающая в упругом теле 
+(пружине, стержне, консоли, балке и т. д.), пропорциональна приложенной к этому телу силе.
+Прикрепленные пружины с грузом.
+</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAlgAAAGQCAIAAAD9V4nPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAA1fZJREFUeF7snQVAFdni//f9X/32bYfdrdgKKgYSkiLSICIoAoKChIUgYmGBjYiK
+        EAAACxABrSO9dQAA1fZJREFUeF7snQVAFdni//f9X/32bYfdrdgKKgYSkiLSICIoAoKChIUgYmGBjYiK
         gSiCrShiK3Zgd3d3t//PnXO9y1qLK7isnM+7b3bu3Lkz58zg+Zzv3ImvXkkkEolEko+RIpRIJBJJvkaK
         UCKRSCT5GilCiUQikeRrpAglEolEkq+RIpRIJBJJvkaKUCKRSCT5GilCiUQikeRrpAglEolEkq+RIpRI
         JBJJvkaKUCKRSCT5GilCiUQikeRrpAglEolEkq+RIpRIJBJJvkaKUCKRSCT5GilCiUQikeRrpAglEolE

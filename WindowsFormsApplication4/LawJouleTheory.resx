@@ -117,11 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Количество теплоты, выделяющееся при прохождении тока в проводнике, прямо 
+пропорционально квадрату силы тока, сопротивлению проводника и времени прохождения тока.
+
+
+Нагревание проводников электрическим током.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAlgAAAGQCAYAAAByNR6YAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAA/7JJREFUeF7s/WW4FdeW9g8/rzzv87ScPhI3PGggQAgSd3f3ECUkQJBACEFCCHEn
+        DAAACwwBP0AiyAAA/7JJREFUeF7s/WW4FdeW9g8/rzzv87ScPhI3PGggQAgSd3f3ECUkQJBACEFCCHEn
         BBICcaJIcLftstxdtyHxc073kb7f+55rF+zss7tPN1eu9P/D/HBfVavWWrVqVc2a4zfHGHPU/wJgZWVl
         ZWVlZWX1M6rDjVZWVlZWVlZWVgevDjdaWVlZWVlZWVkdvDrcaGVlZWVlZWVldfDqcKOVlZWVlZWVldXB
         q8ONVlZWVlZWVlZWB68ON1pZWVlZWVlZWR28OtxoZWVlZWVlZWV18Opwo5WVlZWVlZWV1cGrw41WVlZW
