@@ -73,9 +73,39 @@ namespace WindowsFormsApplication4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1200x630_2 {
+            get {
+                object obj = ResourceManager.GetObject("1200x630 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1200x630_3 {
+            get {
+                object obj = ResourceManager.GetObject("1200x630 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1200x960 {
             get {
                 object obj = ResourceManager.GetObject("1200x960", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _213123312132123 {
+            get {
+                object obj = ResourceManager.GetObject("213123312132123", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +126,26 @@ namespace WindowsFormsApplication4.Properties {
         internal static System.Drawing.Bitmap lectro {
             get {
                 object obj = ResourceManager.GetObject("lectro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap движениме {
+            get {
+                object obj = ResourceManager.GetObject("движениме", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ЗАКОНЫ {
+            get {
+                object obj = ResourceManager.GetObject("ЗАКОНЫ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +213,16 @@ namespace WindowsFormsApplication4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap трение {
+            get {
+                object obj = ResourceManager.GetObject("трение", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap трение1 {
             get {
                 object obj = ResourceManager.GetObject("трение1", resourceCulture);
@@ -186,6 +246,36 @@ namespace WindowsFormsApplication4.Properties {
         internal static System.Drawing.Bitmap упругость {
             get {
                 object obj = ResourceManager.GetObject("упругость", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap упругость1 {
+            get {
+                object obj = ResourceManager.GetObject("упругость1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap упругость2 {
+            get {
+                object obj = ResourceManager.GetObject("упругость2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap энергия {
+            get {
+                object obj = ResourceManager.GetObject("энергия", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

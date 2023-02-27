@@ -40,10 +40,9 @@
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(308, 435);
-            this.button1.Margin = new System.Windows.Forms.Padding(6);
+            this.button1.Location = new System.Drawing.Point(154, 226);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(240, 96);
+            this.button1.Size = new System.Drawing.Size(120, 50);
             this.button1.TabIndex = 1;
             this.button1.Text = "Равномерное";
             this.button1.UseVisualStyleBackColor = true;
@@ -54,10 +53,9 @@
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(302, 277);
-            this.button2.Margin = new System.Windows.Forms.Padding(6);
+            this.button2.Location = new System.Drawing.Point(151, 144);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(254, 96);
+            this.button2.Size = new System.Drawing.Size(127, 50);
             this.button2.TabIndex = 2;
             this.button2.Text = "Равноускоренное";
             this.button2.UseVisualStyleBackColor = true;
@@ -68,10 +66,9 @@
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(652, 435);
-            this.button3.Margin = new System.Windows.Forms.Padding(6);
+            this.button3.Location = new System.Drawing.Point(326, 226);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(240, 96);
+            this.button3.Size = new System.Drawing.Size(120, 50);
             this.button3.TabIndex = 3;
             this.button3.Text = "Равномерное по окружности";
             this.button3.UseVisualStyleBackColor = true;
@@ -83,10 +80,9 @@
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(486, 585);
-            this.button4.Margin = new System.Windows.Forms.Padding(6);
+            this.button4.Location = new System.Drawing.Point(243, 304);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(240, 96);
+            this.button4.Size = new System.Drawing.Size(120, 50);
             this.button4.TabIndex = 5;
             this.button4.Text = "Назад";
             this.button4.UseVisualStyleBackColor = true;
@@ -97,10 +93,9 @@
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(652, 277);
-            this.button5.Margin = new System.Windows.Forms.Padding(6);
+            this.button5.Location = new System.Drawing.Point(326, 144);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(240, 96);
+            this.button5.Size = new System.Drawing.Size(120, 50);
             this.button5.TabIndex = 6;
             this.button5.Text = "Свободное падение тел";
             this.button5.UseVisualStyleBackColor = true;
@@ -108,20 +103,20 @@
             // 
             // Motion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WindowsFormsApplication4.Properties.Resources.движениме;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.button4;
-            this.ClientSize = new System.Drawing.Size(1200, 960);
+            this.ClientSize = new System.Drawing.Size(600, 499);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1226, 1031);
-            this.MinimumSize = new System.Drawing.Size(1200, 960);
+            this.MaximumSize = new System.Drawing.Size(621, 555);
+            this.MinimumSize = new System.Drawing.Size(608, 518);
             this.Name = "Motion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Движение";
