@@ -59,11 +59,11 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Control;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(150, 152);
+            this.label1.Location = new System.Drawing.Point(137, 158);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 15);
+            this.label1.Size = new System.Drawing.Size(117, 15);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Первое число";
+            this.label1.Text = "Введите выражение";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -115,7 +115,7 @@
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(73, 11);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(472, 109);
             this.richTextBox1.TabIndex = 9;
