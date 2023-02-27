@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PowerTrenia));
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,7 +49,7 @@
             this.label5.Font = new System.Drawing.Font("Times New Roman", 25.25F);
             this.label5.Location = new System.Drawing.Point(248, 102);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(193, 77);
+            this.label5.Size = new System.Drawing.Size(98, 39);
             this.label5.TabIndex = 100;
             this.label5.Text = "F=μN";
             // 
@@ -59,7 +60,7 @@
             this.label4.Location = new System.Drawing.Point(361, 227);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(32, 29);
+            this.label4.Size = new System.Drawing.Size(16, 15);
             this.label4.TabIndex = 98;
             this.label4.Text = "Н";
             // 
@@ -70,7 +71,7 @@
             this.label2.Location = new System.Drawing.Point(95, 227);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(278, 29);
+            this.label2.Size = new System.Drawing.Size(138, 15);
             this.label2.TabIndex = 96;
             this.label2.Text = "Реакция силы опоры, N";
             // 
@@ -81,7 +82,7 @@
             this.label16.Location = new System.Drawing.Point(361, 156);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(32, 29);
+            this.label16.Size = new System.Drawing.Size(16, 15);
             this.label16.TabIndex = 94;
             this.label16.Text = "Н";
             // 
@@ -107,7 +108,7 @@
             this.label6.Location = new System.Drawing.Point(102, 190);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(263, 29);
+            this.label6.Size = new System.Drawing.Size(131, 15);
             this.label6.TabIndex = 91;
             this.label6.Text = "Коэффицент трения, μ";
             // 
@@ -131,7 +132,7 @@
             this.textBox2.Location = new System.Drawing.Point(237, 187);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(120, 37);
+            this.textBox2.Size = new System.Drawing.Size(120, 22);
             this.textBox2.TabIndex = 88;
             this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
@@ -142,7 +143,7 @@
             this.label1.Location = new System.Drawing.Point(145, 156);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 29);
+            this.label1.Size = new System.Drawing.Size(88, 15);
             this.label1.TabIndex = 87;
             this.label1.Text = "Сила трения, F";
             // 
@@ -152,7 +153,7 @@
             this.textBox1.Location = new System.Drawing.Point(237, 153);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 37);
+            this.textBox1.Size = new System.Drawing.Size(120, 22);
             this.textBox1.TabIndex = 86;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
@@ -162,7 +163,7 @@
             this.textBox3.Location = new System.Drawing.Point(237, 224);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(120, 37);
+            this.textBox3.Size = new System.Drawing.Size(120, 22);
             this.textBox3.TabIndex = 89;
             this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
@@ -183,7 +184,7 @@
             // PowerTrenia
             // 
             this.AcceptButton = this.button1;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApplication4.Properties.Resources.трение1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -203,6 +204,7 @@
             this.Controls.Add(this.textBox1);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(630, 610);
             this.MinimumSize = new System.Drawing.Size(614, 468);

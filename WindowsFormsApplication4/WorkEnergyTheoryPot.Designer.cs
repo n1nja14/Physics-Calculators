@@ -40,7 +40,7 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(54, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(904, 124);
+            this.label1.Size = new System.Drawing.Size(458, 64);
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
             // 
@@ -55,7 +55,7 @@
             // 
             // WorkEnergyTheoryPot
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
@@ -63,6 +63,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "WorkEnergyTheoryPot";
             this.Text = "Теория: Потенциальная энергия";
