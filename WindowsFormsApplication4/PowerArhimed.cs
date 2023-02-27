@@ -118,10 +118,5 @@ namespace WindowsFormsApplication4
             PowerArhimedTheory f = PowerArhimedTheory.get_instance();
             f.Show();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
