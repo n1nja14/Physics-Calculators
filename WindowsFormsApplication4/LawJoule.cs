@@ -84,6 +84,10 @@ namespace WindowsFormsApplication4
                             textBox4.Text = Convert.ToString(r);
                         }
                     }
+                    else
+                    {
+
+                    }
                 }
                 else if (textBox4.Text != String.Empty)
                 {
