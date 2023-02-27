@@ -38,12 +38,13 @@ namespace WindowsFormsApplication4
             r.Show();
             Hide();
         }
-
-        private void button4_Click(object sender, EventArgs e)
+        void Form_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
             Mechanics r = Mechanics.get_instance();
@@ -87,6 +88,11 @@ namespace WindowsFormsApplication4
         private void Main_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
