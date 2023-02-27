@@ -73,6 +73,16 @@ namespace WindowsFormsApplication4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1200x960 {
+            get {
+                object obj = ResourceManager.GetObject("1200x960", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap d26c7609e0a3f119 {
             get {
                 object obj = ResourceManager.GetObject("d26c7609e0a3f119", resourceCulture);
