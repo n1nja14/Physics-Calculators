@@ -65,9 +65,7 @@ namespace WindowsFormsApplication4
 
         private void button6_Click(object sender, EventArgs e)
         {
-            AaTest f = new AaTest();
-            f.StartPosition = FormStartPosition.Manual;
-            f.Location = Location;
+            C f = new C();
             f.Show();
         }
 
