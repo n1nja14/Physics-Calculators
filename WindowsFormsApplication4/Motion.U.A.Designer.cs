@@ -49,6 +49,7 @@
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -282,6 +283,17 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.UseVisualStyleBackColor = false;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(141, 177);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(753, 55);
+            this.label5.TabIndex = 21;
+            this.label5.Text = "Проверь как это выглядит в .exe";
+            this.label5.Visible = false;
+            // 
             // Form5
             // 
             this.AcceptButton = this.button1;
@@ -291,6 +303,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.button2;
             this.ClientSize = new System.Drawing.Size(1180, 902);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
@@ -348,5 +361,6 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label5;
     }
 }

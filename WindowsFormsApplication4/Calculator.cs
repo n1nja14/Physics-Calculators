@@ -148,21 +148,14 @@ namespace WindowsFormsApplication4
 
                             while (!IsDelimeter(input[i]) && !IsOperator(input[i]))
                             {
-                                if (Char.IsDigit(input[i]))
-                                {
-                                    a += input[i];
-                                    i++;
-                                    if (i == input.Length) break;
-                                }
-                                else
-                                {
-                                    tt = 0;
-                                    break;
-                                }
+                                a += input[i];
+                                i++;
+                                if (i == input.Length) break;
                             }
                             if (tt == 1)
                             {
-                                temp.Push(double.Parse(a));
+                                try { temp.Push(double.Parse(a)); }
+                                catch { MessageBox.Show("Перепроверьте строку", "Внимание", MessageBoxButtons.OK); }
                                 i--;
                             }
                         }
@@ -196,7 +189,7 @@ namespace WindowsFormsApplication4
                     catch (Exception) { throw new SyntaxException(); }
 
                 }
-
+                
             }
 
             private static string ConvertToString(int v)
