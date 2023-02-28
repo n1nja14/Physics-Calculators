@@ -137,7 +137,7 @@
             this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Location = new System.Drawing.Point(23, 131);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(845, 236);
+            this.panel1.Size = new System.Drawing.Size(845, 319);
             this.panel1.TabIndex = 6;
             // 
             // label3
@@ -157,9 +157,9 @@
             this.panel2.Controls.Add(this.radioButton6);
             this.panel2.Controls.Add(this.radioButton7);
             this.panel2.Controls.Add(this.radioButton8);
-            this.panel2.Location = new System.Drawing.Point(23, 388);
+            this.panel2.Location = new System.Drawing.Point(50, 541);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(845, 236);
+            this.panel2.Size = new System.Drawing.Size(845, 309);
             this.panel2.TabIndex = 8;
             // 
             // radioButton5
@@ -217,9 +217,9 @@
             this.panel3.Controls.Add(this.radioButton10);
             this.panel3.Controls.Add(this.radioButton11);
             this.panel3.Controls.Add(this.radioButton12);
-            this.panel3.Location = new System.Drawing.Point(23, 660);
+            this.panel3.Location = new System.Drawing.Point(96, 908);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(845, 236);
+            this.panel3.Size = new System.Drawing.Size(845, 300);
             this.panel3.TabIndex = 9;
             // 
             // label4
@@ -287,7 +287,7 @@
             this.panel4.Controls.Add(this.radioButton14);
             this.panel4.Controls.Add(this.radioButton15);
             this.panel4.Controls.Add(this.radioButton16);
-            this.panel4.Location = new System.Drawing.Point(23, 931);
+            this.panel4.Location = new System.Drawing.Point(96, 1179);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(845, 236);
             this.panel4.TabIndex = 10;

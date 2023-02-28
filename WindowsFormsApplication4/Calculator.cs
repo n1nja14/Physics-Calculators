@@ -132,6 +132,8 @@ namespace WindowsFormsApplication4
 
             static private double Counting(string input)
             {
+                int tt;
+                tt = 1;
                 double result = 0;
                 double b = 0;
                 Stack<double> temp = new Stack<double>();
@@ -146,12 +148,23 @@ namespace WindowsFormsApplication4
 
                             while (!IsDelimeter(input[i]) && !IsOperator(input[i]))
                             {
-                                a += input[i];
-                                i++;
-                                if (i == input.Length) break;
+                                if (Char.IsDigit(input[i]))
+                                {
+                                    a += input[i];
+                                    i++;
+                                    if (i == input.Length) break;
+                                }
+                                else
+                                {
+                                    tt = 0;
+                                    break;
+                                }
                             }
-                            temp.Push(double.Parse(a));
-                            i--;
+                            if (tt == 1)
+                            {
+                                temp.Push(double.Parse(a));
+                                i--;
+                            }
                         }
                         else if (input[i] == '\u03C0')
                             temp.Push(Math.PI);
@@ -185,6 +198,12 @@ namespace WindowsFormsApplication4
                 }
 
             }
+
+            private static string ConvertToString(int v)
+            {
+                throw new NotImplementedException();
+            }
+
             static private bool IsDelimeter(char c)
             {
                 if ((" =".IndexOf(c) != -1))
@@ -301,7 +320,7 @@ namespace WindowsFormsApplication4
         {
             public ArcSinCosException(double x)
             {
-                this.type = "Math error";
+                this.type = "Ошибка";
                 MessageBox.Show("Acos(Asin) (" + x + ") не существует", type, MessageBoxButtons.OK);
             }
         }
