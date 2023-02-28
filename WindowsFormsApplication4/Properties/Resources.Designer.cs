@@ -103,6 +103,26 @@ namespace WindowsFormsApplication4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _123123123123 {
+            get {
+                object obj = ResourceManager.GetObject("123123123123", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1622024717_28_phonoteka_org_p_akhegao_piksel_art_krasivo_37 {
+            get {
+                object obj = ResourceManager.GetObject("1622024717_28-phonoteka_org-p-akhegao-piksel-art-krasivo-37", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _213123312132123 {
             get {
                 object obj = ResourceManager.GetObject("213123312132123", resourceCulture);
