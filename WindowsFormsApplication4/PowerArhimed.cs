@@ -85,6 +85,16 @@ namespace WindowsFormsApplication4
                         textBox1.Text = Convert.ToString(p);
                     }
                 }
+                else
+                {
+                    MessageBox.Show(
+                    "Остались пустые поля!",
+                    "Внимание!",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1,
+                    MessageBoxOptions.DefaultDesktopOnly);
+                }
             }
             if (textBox1.Text != string.Empty)
             {
@@ -108,6 +118,26 @@ namespace WindowsFormsApplication4
                         textBox2.Text = Convert.ToString(v);
                     }
                 }
+                else
+                {
+                    MessageBox.Show(
+                    "Остались пустые поля!",
+                    "Внимание!",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1,
+                    MessageBoxOptions.DefaultDesktopOnly);
+                }
+            }
+            else
+            {
+                MessageBox.Show(
+                "Остались пустые поля!",
+                "Внимание!",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error,
+                MessageBoxDefaultButton.Button1,
+                MessageBoxOptions.DefaultDesktopOnly);
             }
         }
 

@@ -27,11 +27,11 @@ namespace WindowsFormsApplication4
         }
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char number = e.KeyChar;
+            /*char number = e.KeyChar;
             if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && (e.KeyChar <= 39 || e.KeyChar >= 46) && number != 47 && number != 94 && number != 61)
             {
                 e.Handled = true;
-            }
+            }*/
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -76,11 +76,12 @@ namespace WindowsFormsApplication4
             {
                 string temp = "";//как бы это было не удивительно, но переменная для хранения числа
                 //проверка на отрицательное число: зсли знак "-" в начале строки или перед знаком "-" нет числа
-                if (input_string[i] == '-' && ((i > 0 && !Char.IsDigit(input_string[i - 1])) || i == 0))
+                if (input_string[i] == '-' && ((i > 0 && !Char.IsDigit(input_string[i - 1])) || i == 0)) // проверка на дробь
                 {
                     i++;
                     temp += "-";//в переменную для чисел добавляется знак "-"
                 }
+                
                 if (Char.IsDigit(input_string[i]))
                 {
                     //найдено число и в переменную temp записываются все цифры числа, тк число может состоять не только из одной цифры
@@ -183,7 +184,6 @@ namespace WindowsFormsApplication4
                     t += output_string[i];
             return t;//передали полученную строку
         }
-
         public double Solution(string OPZ_String)
         {
             string[] mas = OPZ_String.Split(' ');//нарезаем строку в виде Обратной польской записи в массив элементов
@@ -246,13 +246,6 @@ namespace WindowsFormsApplication4
             textBox2.Text = result.ToString();
 
         }
-        
-
-        private void radioButton5_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 

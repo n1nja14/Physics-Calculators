@@ -76,7 +76,7 @@ namespace WindowsFormsApplication4
                         MessageBoxDefaultButton.Button1,
                         MessageBoxOptions.DefaultDesktopOnly);
                     }
-                    
+
                     else
                     {
                         x = Math.Sqrt((2 * v0 * 2 * v0) - (4 * (-2) * s * 9.8));
@@ -104,17 +104,48 @@ namespace WindowsFormsApplication4
                         }
                     }
                 }
-                else if (textBox1.Text != String.Empty)
+                else
                 {
-                    if (textBox2.Text != String.Empty)
-                    {
-                        t = double.Parse(textBox2.Text);
-                        s = double.Parse(textBox1.Text);
-                        v0 = (s - ((9.8 * t * t) / 2)) / t;
-                        textBox3.Text = Convert.ToString(v0);
-                    }
+                    MessageBox.Show(
+                    "Остались пустые поля!",
+                    "Внимание!",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1,
+                    MessageBoxOptions.DefaultDesktopOnly);
                 }
             }
+            else if (textBox1.Text != String.Empty)
+            {
+                if (textBox2.Text != String.Empty)
+                {
+                    t = double.Parse(textBox2.Text);
+                    s = double.Parse(textBox1.Text);
+                    v0 = (s - ((9.8 * t * t) / 2)) / t;
+                    textBox3.Text = Convert.ToString(v0);
+                }
+                else
+                {
+                    MessageBox.Show(
+                    "Остались пустые поля!",
+                    "Внимание!",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1,
+                    MessageBoxOptions.DefaultDesktopOnly);
+                }
+            }
+            else
+            {
+                MessageBox.Show(
+                "Остались пустые поля!",
+                "Внимание!",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error,
+                MessageBoxDefaultButton.Button1,
+                MessageBoxOptions.DefaultDesktopOnly);
+            }
+
         }
         private void button2_Click(object sender, EventArgs e)
         {
