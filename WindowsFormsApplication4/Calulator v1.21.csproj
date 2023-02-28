@@ -79,7 +79,6 @@
     <Compile Include="C.Designer.cs">
       <DependentUpon>C.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="PowerTreniaTheory.cs">
       <SubType>Form</SubType>
     </Compile>

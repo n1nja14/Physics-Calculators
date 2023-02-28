@@ -84,19 +84,19 @@ namespace WindowsFormsApplication4
                         t2 = (-2 * v0 + x) / (2 * 9.8);
                         if (t1 == t2)
                         {
-                            textBox2.Text = "t=" + string.Format("{0:f2}", t1);
+                            textBox2.Text = string.Format("{0:f2}", t1);
                         }
                         else if (t1 > 0 && t2 < 0)
                         {
-                            textBox2.Text = "t=" + string.Format("{0:f2}", t1);
+                            textBox2.Text = string.Format("{0:f2}", t1);
                         }
                         else if (t1 < 0 && t2 > 0)
                         {
-                            textBox2.Text = "t=" + string.Format("{0:f2}", t2);
+                            textBox2.Text = string.Format("{0:f2}", t2);
                         }
                         else if (t1 > 0 && t2 > 0)
                         {
-                            textBox2.Text = "t1=" + string.Format("{0:f2}", t1) + " ||t2=" + string.Format("{0:f2}", t2);
+                            textBox2.Text = "t=" + string.Format("{0:f2}", t1) + " ||t=" + string.Format("{0:f2}", t2);
                         }
                         else
                         {

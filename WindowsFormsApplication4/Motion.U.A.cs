@@ -50,7 +50,7 @@ namespace WindowsFormsApplication4
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+            private void button1_Click(object sender, EventArgs e)
         {
             double s, a, v, t, v0, x, t1, t2;
             if (radioButton1.Checked)
@@ -454,15 +454,15 @@ namespace WindowsFormsApplication4
                                 t2 = (-2 * v0 + x) / (2 * a);
                                 if (t1 == t2)
                                 {
-                                    textBox3.Text = "t=" + string.Format("{0:f2}", t1);
+                                    textBox3.Text = string.Format("{0:f2}", t1);
                                 }
                                 else if (t1 > 0 && t2 < 0)
                                 {
-                                    textBox3.Text = "t=" + string.Format("{0:f2}", t1);
+                                    textBox3.Text = string.Format("{0:f2}", t1);
                                 }
                                 else if (t1 < 0 && t2 > 0)
                                 {
-                                    textBox3.Text = "t=" + string.Format("{0:f2}", t2);
+                                    textBox3.Text = string.Format("{0:f2}", t2);
                                 }
                                 else if (t1 > 0 && t2 > 0)
                                 {
