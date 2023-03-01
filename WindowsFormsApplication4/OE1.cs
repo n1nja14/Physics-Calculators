@@ -39,6 +39,7 @@ namespace WindowsFormsApplication4
         }
         private void button2_Click(object sender, EventArgs e)
         {
+            Data.p = 0;
             if (radioButton1.Checked)
             {
                Data.p += 1;

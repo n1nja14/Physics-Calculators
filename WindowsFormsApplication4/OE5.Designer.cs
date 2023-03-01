@@ -35,6 +35,7 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // button2
@@ -52,10 +53,10 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(83, 348);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(165, 29);
+            this.radioButton4.Size = new System.Drawing.Size(193, 29);
             this.radioButton4.TabIndex = 19;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.Text = "4) Напряжение";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton3
@@ -63,10 +64,10 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(83, 291);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(165, 29);
+            this.radioButton3.Size = new System.Drawing.Size(285, 29);
             this.radioButton3.TabIndex = 18;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.Text = "3) Электрический заряд";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
@@ -74,10 +75,10 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(83, 234);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(165, 29);
+            this.radioButton2.Size = new System.Drawing.Size(224, 29);
             this.radioButton2.TabIndex = 17;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.Text = "2) Сопротивление";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
@@ -85,10 +86,10 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(83, 177);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(165, 29);
+            this.radioButton1.Size = new System.Drawing.Size(170, 29);
             this.radioButton1.TabIndex = 16;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.Text = "1) Сила тока";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -96,9 +97,10 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(78, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(691, 25);
+            this.label1.Size = new System.Drawing.Size(767, 50);
             this.label1.TabIndex = 15;
-            this.label1.Text = "1. Сила взаимодействия двух неподвижных электрических зарядов";
+            this.label1.Text = "5. Укажите, какая физическая величина одинакова для всех проводников, \r\nсоединённ" +
+    "ых параллельно?";
             // 
             // button1
             // 
@@ -110,11 +112,23 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(83, 405);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(171, 29);
+            this.radioButton5.TabIndex = 21;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "5) Мощность";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
             // OE5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(974, 679);
+            this.Controls.Add(this.radioButton5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.radioButton3);
@@ -138,5 +152,6 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton radioButton5;
     }
 }

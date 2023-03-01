@@ -52,10 +52,10 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(83, 348);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(165, 29);
+            this.radioButton4.Size = new System.Drawing.Size(727, 29);
             this.radioButton4.TabIndex = 12;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.Text = "4) Полёт молекулы водорода между двумя заряженными шариками";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton3
@@ -66,7 +66,7 @@
             this.radioButton3.Size = new System.Drawing.Size(381, 29);
             this.radioButton3.TabIndex = 11;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "4) Разряд молнии во время грозы";
+            this.radioButton3.Text = "3) Разряд молнии во время грозы";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
@@ -74,10 +74,10 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(83, 234);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(165, 29);
+            this.radioButton2.Size = new System.Drawing.Size(777, 29);
             this.radioButton2.TabIndex = 10;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.Text = "2) Поворот стрелки компаса на север при ориентировании на местности";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
@@ -85,10 +85,10 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(83, 177);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(165, 29);
+            this.radioButton1.Size = new System.Drawing.Size(867, 29);
             this.radioButton1.TabIndex = 9;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.Text = "1) Движение молоточка в электрическом звонке перед ударом о звонковую чашу";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -96,9 +96,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(78, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(691, 25);
+            this.label1.Size = new System.Drawing.Size(607, 25);
             this.label1.TabIndex = 8;
-            this.label1.Text = "1. Сила взаимодействия двух неподвижных электрических зарядов";
+            this.label1.Text = "2. Какое из явлений можно назвать электрическим током?\r\n";
             // 
             // button1
             // 

@@ -64,7 +64,7 @@
             this.radioButton1.Size = new System.Drawing.Size(680, 29);
             this.radioButton1.TabIndex = 2;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "4) обратно пропорциональна квадрату расстояния между ними";
+            this.radioButton1.Text = "1) обратно пропорциональна квадрату расстояния между ними";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // radioButton2
@@ -72,10 +72,10 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(83, 234);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(165, 29);
+            this.radioButton2.Size = new System.Drawing.Size(568, 29);
             this.radioButton2.TabIndex = 3;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.Text = "2) прямо пропорциональна расстоянию между ними";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton3
@@ -83,10 +83,10 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(83, 291);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(165, 29);
+            this.radioButton3.Size = new System.Drawing.Size(666, 29);
             this.radioButton3.TabIndex = 4;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.Text = "3) прямо пропорциональна квадрату расстояния между ними ";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton4
@@ -94,10 +94,10 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(83, 348);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(165, 29);
+            this.radioButton4.Size = new System.Drawing.Size(588, 29);
             this.radioButton4.TabIndex = 5;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.Text = "4) обратно пропорциональна расстоянию между ними";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // button2
