@@ -96,9 +96,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(78, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(559, 25);
+            this.label1.Size = new System.Drawing.Size(565, 25);
             this.label1.TabIndex = 8;
-            this.label1.Text = "3. Кусок проволоки сложили вдвое. Её сопротивление";
+            this.label1.Text = "3. Кусок проволоки сложили вдвое. Её сопротивление:";
             // 
             // button1
             // 

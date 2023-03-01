@@ -225,7 +225,11 @@ namespace WindowsFormsApplication4
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Ruko f = Ruko.get_instance();
+            f.StartPosition = FormStartPosition.Manual;
+            f.Location = Location;
+            f.Show();
+            Hide();
         }
     }
 }

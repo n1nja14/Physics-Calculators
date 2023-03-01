@@ -12,9 +12,23 @@ namespace WindowsFormsApplication4
 {
     public partial class Ruko : Form
     {
+        public static Ruko Instance;
+        public static Ruko get_instance()
+        {
+            if (Instance == null)
+            {
+                Instance = new Ruko();
+                return Instance;
+            }
+            else
+            {
+                return Instance;
+            }
+        }
         public Ruko()
         {
             InitializeComponent();
         }
+
     }
 }
