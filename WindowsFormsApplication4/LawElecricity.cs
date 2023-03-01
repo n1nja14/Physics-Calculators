@@ -91,5 +91,10 @@ namespace WindowsFormsApplication4
             f.Show();
             Hide();
         }
+
+        private void LawElecricity_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

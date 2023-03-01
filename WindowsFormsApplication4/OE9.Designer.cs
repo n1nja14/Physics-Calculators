@@ -39,6 +39,7 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(656, 526);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(240, 90);
@@ -50,9 +51,10 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
+            this.radioButton4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radioButton4.Location = new System.Drawing.Point(83, 348);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(358, 29);
+            this.radioButton4.Size = new System.Drawing.Size(464, 40);
             this.radioButton4.TabIndex = 12;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "4) работа  электрического тока";
@@ -61,9 +63,10 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
+            this.radioButton3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radioButton3.Location = new System.Drawing.Point(83, 291);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(220, 29);
+            this.radioButton3.Size = new System.Drawing.Size(284, 40);
             this.radioButton3.TabIndex = 11;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "3) сопротивление";
@@ -72,9 +75,10 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radioButton2.Location = new System.Drawing.Point(83, 234);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(166, 29);
+            this.radioButton2.Size = new System.Drawing.Size(210, 40);
             this.radioButton2.TabIndex = 10;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "2) сила тока";
@@ -83,9 +87,10 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radioButton1.Location = new System.Drawing.Point(83, 177);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(190, 29);
+            this.radioButton1.Size = new System.Drawing.Size(244, 40);
             this.radioButton1.TabIndex = 9;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "1) напряжение";
@@ -94,15 +99,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(230, 54);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(173, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(505, 50);
+            this.label1.Size = new System.Drawing.Size(649, 72);
             this.label1.TabIndex = 8;
-            this.label1.Text = "8. Укажите, какая физическая величина \r\nодинакова при  последовательном  соединен" +
-    "ии?";
+            this.label1.Text = "8. Укажите, какая физическая величина \r\nодинакова при последовательном соединении" +
+    "?";
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(83, 526);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(240, 90);

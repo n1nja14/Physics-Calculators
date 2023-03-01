@@ -52,10 +52,10 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(83, 348);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(165, 29);
+            this.radioButton4.Size = new System.Drawing.Size(307, 29);
             this.radioButton4.TabIndex = 12;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.Text = "4) нет правильного ответа";
             this.radioButton4.UseVisualStyleBackColor = true;
             this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
@@ -64,10 +64,10 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(83, 291);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(165, 29);
+            this.radioButton3.Size = new System.Drawing.Size(381, 29);
             this.radioButton3.TabIndex = 11;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.Text = "3) кинетическая и потенциальная";
             this.radioButton3.UseVisualStyleBackColor = true;
             this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
@@ -76,10 +76,10 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(83, 234);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(165, 29);
+            this.radioButton2.Size = new System.Drawing.Size(220, 29);
             this.radioButton2.TabIndex = 10;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.Text = "2) потенциальная";
             this.radioButton2.UseVisualStyleBackColor = true;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
@@ -88,10 +88,10 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(83, 186);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(680, 29);
+            this.radioButton1.Size = new System.Drawing.Size(205, 29);
             this.radioButton1.TabIndex = 9;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "4) обратно пропорциональна квадрату расстояния между ними";
+            this.radioButton1.Text = "1) кинетическая";
             this.radioButton1.UseVisualStyleBackColor = true;
             this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
@@ -100,9 +100,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(78, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(691, 25);
+            this.label1.Size = new System.Drawing.Size(677, 25);
             this.label1.TabIndex = 8;
-            this.label1.Text = "1. Сила взаимодействия двух неподвижных электрических зарядов";
+            this.label1.Text = "10. Различают несколько видов механической энергии, а именно:\r\n";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
@@ -131,7 +131,7 @@
             this.MaximumSize = new System.Drawing.Size(1000, 725);
             this.MinimumSize = new System.Drawing.Size(950, 725);
             this.Name = "OM10";
-            this.Text = "OM10";
+            this.Text = "Тест на тему Механика";
             this.ResumeLayout(false);
             this.PerformLayout();
 

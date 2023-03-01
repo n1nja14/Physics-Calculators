@@ -45,7 +45,7 @@ namespace WindowsFormsApplication4
         private void button2_Click(object sender, EventArgs e)
         {
             lData.r = 0;
-            if (radioButton1.Checked)
+            if (radioButton3.Checked)
             {
                 lData.r += 1;
             }

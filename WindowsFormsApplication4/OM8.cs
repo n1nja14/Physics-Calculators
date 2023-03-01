@@ -39,7 +39,7 @@ namespace WindowsFormsApplication4
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            if (radioButton1.Checked)
+            if (radioButton4.Checked)
             {
                 OM1.lData.r += 1;
             }
@@ -48,6 +48,11 @@ namespace WindowsFormsApplication4
             f.Location = Location;
             f.Show();
             Hide();
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

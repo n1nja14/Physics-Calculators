@@ -49,7 +49,7 @@ namespace WindowsFormsApplication4
                             k = input[i];
                         else
                             if (input[i] == '-' && !Char.IsDigit(k))
-                            p += " 0 ";
+                            p += " + 0 ";
                         k = input[i];
                     }
                     p += input[i];
@@ -253,32 +253,32 @@ namespace WindowsFormsApplication4
         {
             public NegativeFactorialException(int x)
             {
-                this.type = "Math error";
-                MessageBox.Show("Factorial(" + x + ") does not exsists", type, MessageBoxButtons.OK);
+                this.type = "Ошибка";
+                MessageBox.Show("Факториал(" + x + ") не существует", type, MessageBoxButtons.OK);
             }
         }
         public class TgException : MyException
         {
             public TgException(double x)
             {
-                this.type = "Math error";
+/*                this.type = "Math error";
                 MessageBox.Show("Tg(" + x + ") does not exsists", type, MessageBoxButtons.OK);
-            }
+            */}
         }
         public class SqrtException : MyException
         {
             public SqrtException(double x)
             {
-                this.type = "Math error";
-                MessageBox.Show("Sqrt(" + x + ") does not exsists", type, MessageBoxButtons.OK);
+                this.type = "Ошибка";
+                MessageBox.Show("Корень не может быть меньше нуля", type, MessageBoxButtons.OK);
             }
         }
         public class DividedByZeroException : MyException
         {
             public DividedByZeroException()
             {
-                this.type = "Math error";
-                MessageBox.Show("Division by zero is impossible", type, MessageBoxButtons.OK);
+                this.type = "Ошибка";
+                MessageBox.Show("Деление на ноль невозможно", type, MessageBoxButtons.OK);
             }
         }
         public class LogException : MyException
@@ -293,17 +293,17 @@ namespace WindowsFormsApplication4
         {
             public SyntaxException()
             {
-                this.type = "Syntax error";
-                MessageBox.Show("You made a mistake", type, MessageBoxButtons.OK);
+                this.type = "Ошибка";
+                MessageBox.Show("Перепроверьте входную строку", type, MessageBoxButtons.OK);
             }
         }
         public class ArcSinCosException : MyException
         {
             public ArcSinCosException(double x)
             {
-                this.type = "Math error";
+ /*               this.type = "Math error";
                 MessageBox.Show("Acos(or Asin) (" + x + ") does not exsists", type, MessageBoxButtons.OK);
-            }
+            */}
         }
         private void button1_Click(object sender, EventArgs e)
         {
