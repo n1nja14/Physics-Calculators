@@ -773,5 +773,10 @@ namespace WindowsFormsApplication4
             f.Show();
             Hide();
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
