@@ -231,5 +231,10 @@ namespace WindowsFormsApplication4
             f.Show();
             Hide();
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
