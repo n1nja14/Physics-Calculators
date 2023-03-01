@@ -129,6 +129,7 @@ namespace WindowsFormsApplication4
 
                 return output;
             }
+
             static private double Counting(string input)
             {
                 double result = 0;
@@ -160,39 +161,30 @@ namespace WindowsFormsApplication4
                         {
                             double a = temp.Pop();
                             try
-                            { b = temp.Pop(); } 
-                            catch (Exception) 
+                            { b = temp.Pop(); }
+                            catch (Exception) { b = 0; }
+
+                            switch (input[i])
                             {
-                                b = 0;
+                                case '!': result = factorial((int)a); break;
+                                case 'P': result = factorial((int)b) / factorial((int)(b - a)); break;
+                                case 'C': result = factorial((int)b) / (factorial((int)a) * factorial((int)(b - a))); break;
+                                case '^': result = Math.Pow(b, a); break;
+                                case '%': result = b % a; break;
+                                case '+': result = b + a; break;
+                                case '-': result = b - a; break;
+                                case '*': result = b * a; break;
+                                case '/': if (a == 0) throw new DividedByZeroException(); else result = b / a; break;
                             }
-                            try
-                            {
-                                switch (input[i])
-                                {
-                                    case '!': result = factorial((int)a); break;
-                                    case 'P': result = factorial((int)b) / factorial((int)(b - a)); break;
-                                    case 'C': result = factorial((int)b) / (factorial((int)a) * factorial((int)(b - a))); break;
-                                    case '^': result = Math.Pow(b, a); break;
-                                    case '%': result = b % a; break;
-                                    case '+': result = b + a; break;
-                                    case '-': result = b - a; break;
-                                    case '*': result = b * a; break;
-                                    case '/': if (a == 0) throw new DividedByZeroException(); else result = b / a; break;
-                                }
-                            }
-                            catch { new SyntaxException(); }
-                            temp.Push(result); //
+                            temp.Push(result);
                         }
                     }
                     try { return temp.Peek(); }
                     catch (Exception) { throw new SyntaxException(); }
 
                 }
-                
+
             }
-
-
-
             static private bool IsDelimeter(char c)
             {
                 if ((" =".IndexOf(c) != -1))
@@ -205,7 +197,6 @@ namespace WindowsFormsApplication4
                     return true;
                 return false;
             }
-
             static private bool IsFunction(String s)
             {
                 String[] func = { "sin", "cos", "tg", "asin", "acos", "atg", "sqrt", "ln", "lg" };
@@ -213,7 +204,7 @@ namespace WindowsFormsApplication4
                     return true;
                 return false;
             }
-            static private String doFunc(String fun, double param) // бесполезная мешура
+            static private String doFunc(String fun, double param)
             {
                 switch (fun)
                 {
@@ -245,7 +236,74 @@ namespace WindowsFormsApplication4
                     default: return 4;
                 }
             }
-
+            private static int factorial(int x)
+            {
+                int i = 1;
+                for (int s = 1; s <= x; s++)
+                    i = i * s;
+                if (x < 0) throw new NegativeFactorialException(x);
+                return i;
+            }
+        }
+        public class MyException : Exception
+        {
+            public string type;
+        }
+        public class NegativeFactorialException : MyException
+        {
+            public NegativeFactorialException(int x)
+            {
+                this.type = "Math error";
+                MessageBox.Show("Factorial(" + x + ") does not exsists", type, MessageBoxButtons.OK);
+            }
+        }
+        public class TgException : MyException
+        {
+            public TgException(double x)
+            {
+                this.type = "Math error";
+                MessageBox.Show("Tg(" + x + ") does not exsists", type, MessageBoxButtons.OK);
+            }
+        }
+        public class SqrtException : MyException
+        {
+            public SqrtException(double x)
+            {
+                this.type = "Math error";
+                MessageBox.Show("Sqrt(" + x + ") does not exsists", type, MessageBoxButtons.OK);
+            }
+        }
+        public class DividedByZeroException : MyException
+        {
+            public DividedByZeroException()
+            {
+                this.type = "Math error";
+                MessageBox.Show("Division by zero is impossible", type, MessageBoxButtons.OK);
+            }
+        }
+        public class LogException : MyException
+        {
+            public LogException(double x)
+            {
+                this.type = "Math error";
+                MessageBox.Show("Log(" + x + ") does not exsists", type, MessageBoxButtons.OK);
+            }
+        }
+        public class SyntaxException : MyException
+        {
+            public SyntaxException()
+            {
+                this.type = "Syntax error";
+                MessageBox.Show("You made a mistake", type, MessageBoxButtons.OK);
+            }
+        }
+        public class ArcSinCosException : MyException
+        {
+            public ArcSinCosException(double x)
+            {
+                this.type = "Math error";
+                MessageBox.Show("Acos(or Asin) (" + x + ") does not exsists", type, MessageBoxButtons.OK);
+            }
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -270,68 +328,7 @@ namespace WindowsFormsApplication4
             if (x < 0) throw new NegativeFactorialException(x);
             return i;
         }
-        public class MyException : Exception
-        {
-            public string type;
-        }
-        public class NegativeFactorialException : MyException
-        {
-            public NegativeFactorialException(int x)
-            {
-                this.type = "Ошибка";
-                MessageBox.Show("Factorial(" + x + ") не существует", type, MessageBoxButtons.OK);
-            }
-        }
-        public class TgException : MyException
-        {
-            public TgException(double x)
-            {
-                this.type = "Ошибка";
-                MessageBox.Show("Tg(" + x + ") не существует", type, MessageBoxButtons.OK);
-            }
-        }
-        public class SqrtException : MyException
-        {
-            public SqrtException(double x)
-            {
-                this.type = "Ошибка";
-                MessageBox.Show("Sqrt(" + x + ") не существует", type, MessageBoxButtons.OK);
-            }
-        }
-        public class DividedByZeroException : MyException
-        {
-            public DividedByZeroException()
-            {
-                this.type = "Ошибка";
-                MessageBox.Show("Деление на ноль невозможно!", type, MessageBoxButtons.OK);
-            }
-        }
-        public class LogException : MyException
-        {
-            public LogException(double x)
-            {
-                this.type = "Ошибка";
-                MessageBox.Show("Log(" + x + ") не существует", type, MessageBoxButtons.OK);
-            }
-        }
-        public class SyntaxException : MyException
-        {
-            public SyntaxException()
-            {
-                this.type = "Синтаксическая ошибка";
-                MessageBox.Show("Ошибка в выражении", type, MessageBoxButtons.OK);
-            }
-        }
-        public class ArcSinCosException : MyException
-        {
-            public ArcSinCosException(double x)
-            {
-                this.type = "Ошибка";
-                MessageBox.Show("Acos(Asin) (" + x + ") не существует", type, MessageBoxButtons.OK);
-            }
-        }
-
-
+        
 
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
