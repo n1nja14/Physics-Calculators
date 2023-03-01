@@ -60,6 +60,10 @@
   <PropertyGroup>
     <SignManifests>false</SignManifests>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -151,6 +155,7 @@
     <Compile Include="PowerArhimedTheory.Designer.cs">
       <DependentUpon>PowerArhimedTheory.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -378,7 +383,6 @@
     <Compile Include="Work.E.Designer.cs">
       <DependentUpon>Work.E.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="C.resx">
       <DependentUpon>C.cs</DependentUpon>
