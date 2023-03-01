@@ -79,6 +79,66 @@
     <Compile Include="C.Designer.cs">
       <DependentUpon>C.cs</DependentUpon>
     </Compile>
+    <Compile Include="OE1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE1.Designer.cs">
+      <DependentUpon>OE1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OE10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE10.Designer.cs">
+      <DependentUpon>OE10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OE2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE2.Designer.cs">
+      <DependentUpon>OE2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OE3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE3.Designer.cs">
+      <DependentUpon>OE3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OE4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE4.Designer.cs">
+      <DependentUpon>OE4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OE5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE5.Designer.cs">
+      <DependentUpon>OE5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OE6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE6.Designer.cs">
+      <DependentUpon>OE6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OE7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE7.Designer.cs">
+      <DependentUpon>OE7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OE8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE8.Designer.cs">
+      <DependentUpon>OE8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OE9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OE9.Designer.cs">
+      <DependentUpon>OE9.cs</DependentUpon>
+    </Compile>
     <Compile Include="PowerTreniaTheory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -322,6 +382,36 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="C.resx">
       <DependentUpon>C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE1.resx">
+      <DependentUpon>OE1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE10.resx">
+      <DependentUpon>OE10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE2.resx">
+      <DependentUpon>OE2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE3.resx">
+      <DependentUpon>OE3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE4.resx">
+      <DependentUpon>OE4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE5.resx">
+      <DependentUpon>OE5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE6.resx">
+      <DependentUpon>OE6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE7.resx">
+      <DependentUpon>OE7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE8.resx">
+      <DependentUpon>OE8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OE9.resx">
+      <DependentUpon>OE9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PowerTreniaTheory.resx">
       <DependentUpon>PowerTreniaTheory.cs</DependentUpon>

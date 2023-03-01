@@ -92,5 +92,13 @@ namespace WindowsFormsApplication4
         {
             Application.Exit();
         }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            OE1 F = OE1.get_instance();
+            F.StartPosition = FormStartPosition.Manual;
+            F.Location = Location;
+            F.Show();
+        }
     }
 }
