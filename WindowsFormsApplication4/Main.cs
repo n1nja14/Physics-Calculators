@@ -100,5 +100,13 @@ namespace WindowsFormsApplication4
             F.Location = Location;
             F.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            OM1 F = OM1.get_instance();
+            F.StartPosition = FormStartPosition.Manual;
+            F.Location = Location;
+            F.Show();
+        }
     }
 }

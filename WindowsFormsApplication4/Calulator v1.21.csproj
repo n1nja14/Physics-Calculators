@@ -64,6 +64,9 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -142,6 +145,66 @@
     </Compile>
     <Compile Include="OE9.Designer.cs">
       <DependentUpon>OE9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OM1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OM1.Designer.cs">
+      <DependentUpon>OM1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OM10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OM10.Designer.cs">
+      <DependentUpon>OM10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OM2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OM2.Designer.cs">
+      <DependentUpon>OM2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OM3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OM3.Designer.cs">
+      <DependentUpon>OM3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OM4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OM4.Designer.cs">
+      <DependentUpon>OM4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OM5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OM5.Designer.cs">
+      <DependentUpon>OM5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OM6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OM6.Designer.cs">
+      <DependentUpon>OM6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OM7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OM7.Designer.cs">
+      <DependentUpon>OM7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OM8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OM8.Designer.cs">
+      <DependentUpon>OM8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OM9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OM9.Designer.cs">
+      <DependentUpon>OM9.cs</DependentUpon>
     </Compile>
     <Compile Include="PowerTreniaTheory.cs">
       <SubType>Form</SubType>
@@ -416,6 +479,36 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OE9.resx">
       <DependentUpon>OE9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OM1.resx">
+      <DependentUpon>OM1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OM10.resx">
+      <DependentUpon>OM10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OM2.resx">
+      <DependentUpon>OM2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OM3.resx">
+      <DependentUpon>OM3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OM4.resx">
+      <DependentUpon>OM4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OM5.resx">
+      <DependentUpon>OM5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OM6.resx">
+      <DependentUpon>OM6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OM7.resx">
+      <DependentUpon>OM7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OM8.resx">
+      <DependentUpon>OM8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OM9.resx">
+      <DependentUpon>OM9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PowerTreniaTheory.resx">
       <DependentUpon>PowerTreniaTheory.cs</DependentUpon>
