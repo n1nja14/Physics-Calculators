@@ -49,11 +49,8 @@ namespace WindowsFormsApplication4
                 "Кол-ов баллов: " + OE1.Data.p,
                 "Конец",
                 MessageBoxButtons.OK);
-            Main f = Main.get_instance();
-            f.StartPosition = FormStartPosition.Manual;
-            f.Location = Location;
-            f.Show();
             Hide();
+            OE1.Data.p = 0;
         }
     }
 }

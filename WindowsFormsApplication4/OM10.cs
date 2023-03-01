@@ -47,10 +47,7 @@ namespace WindowsFormsApplication4
             "Кол-ов баллов: " + OM1.lData.r,
             "Конец",
             MessageBoxButtons.OK);
-            Main f = Main.get_instance();
-            f.StartPosition = FormStartPosition.Manual;
-            f.Location = Location;
-            f.Show();
+            OM1.lData.r = 0;
             Hide();
         }
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
