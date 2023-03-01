@@ -94,13 +94,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 63);
+            this.label1.Location = new System.Drawing.Point(148, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(942, 50);
+            this.label1.Size = new System.Drawing.Size(602, 50);
             this.label1.TabIndex = 8;
-            this.label1.Text = "8. Укажите, какова сила тока в цепи, если с напряжением 12В проводник с сопротивл" +
-    "ением\r\n                                                      6 Ом включен в цепь" +
-    "?";
+            this.label1.Text = "8. Укажите, какова сила тока в цепи, если с напряжением \r\n12В проводник с сопроти" +
+    "влением 6 Ом включен в цепь?";
             // 
             // button1
             // 
@@ -116,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 679);
+            this.ClientSize = new System.Drawing.Size(924, 654);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.radioButton3);
@@ -124,6 +123,9 @@
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1000, 725);
+            this.MinimumSize = new System.Drawing.Size(950, 725);
             this.Name = "OE8";
             this.Text = "Тест на тему Электродинамика";
             this.ResumeLayout(false);

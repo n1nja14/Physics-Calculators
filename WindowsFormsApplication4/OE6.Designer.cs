@@ -126,7 +126,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 679);
+            this.ClientSize = new System.Drawing.Size(924, 654);
             this.Controls.Add(this.radioButton5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.radioButton4);
@@ -135,6 +135,9 @@
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1000, 725);
+            this.MinimumSize = new System.Drawing.Size(950, 725);
             this.Name = "OE6";
             this.Text = "Тест на тему Электродинамика";
             this.ResumeLayout(false);

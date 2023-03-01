@@ -52,10 +52,10 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(83, 348);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(165, 29);
+            this.radioButton4.Size = new System.Drawing.Size(358, 29);
             this.radioButton4.TabIndex = 12;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.Text = "4) работа  электрического тока";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton3
@@ -63,10 +63,10 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(83, 291);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(165, 29);
+            this.radioButton3.Size = new System.Drawing.Size(220, 29);
             this.radioButton3.TabIndex = 11;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.Text = "3) сопротивление";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
@@ -74,10 +74,10 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(83, 234);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(165, 29);
+            this.radioButton2.Size = new System.Drawing.Size(166, 29);
             this.radioButton2.TabIndex = 10;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.Text = "2) сила тока";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
@@ -85,20 +85,21 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(83, 177);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(165, 29);
+            this.radioButton1.Size = new System.Drawing.Size(190, 29);
             this.radioButton1.TabIndex = 9;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.Text = "1) напряжение";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(78, 63);
+            this.label1.Location = new System.Drawing.Point(230, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(691, 25);
+            this.label1.Size = new System.Drawing.Size(505, 50);
             this.label1.TabIndex = 8;
-            this.label1.Text = "1. Сила взаимодействия двух неподвижных электрических зарядов";
+            this.label1.Text = "8. Укажите, какая физическая величина \r\nодинакова при  последовательном  соединен" +
+    "ии?";
             // 
             // button1
             // 
@@ -114,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 679);
+            this.ClientSize = new System.Drawing.Size(924, 654);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.radioButton3);
@@ -122,6 +123,9 @@
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1000, 725);
+            this.MinimumSize = new System.Drawing.Size(950, 725);
             this.Name = "OE9";
             this.Text = "Тест на тему Электродинамика";
             this.ResumeLayout(false);

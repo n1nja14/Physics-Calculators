@@ -41,7 +41,7 @@ namespace WindowsFormsApplication4
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            if (radioButton3.Checked)
+            if (radioButton2.Checked)
             {
                 OE1.Data.p += 1;
             }
