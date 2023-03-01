@@ -63,11 +63,6 @@ namespace WindowsFormsApplication4
             Hide();
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            C f = new C();
-            f.Show();
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
