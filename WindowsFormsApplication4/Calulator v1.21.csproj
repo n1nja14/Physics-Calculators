@@ -230,6 +230,12 @@
     <Compile Include="Q.Designer.cs">
       <DependentUpon>Q.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ruko.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ruko.Designer.cs">
+      <DependentUpon>Ruko.cs</DependentUpon>
+    </Compile>
     <Compile Include="WorkEnergyTheoryPot.cs">
       <SubType>Form</SubType>
     </Compile>
