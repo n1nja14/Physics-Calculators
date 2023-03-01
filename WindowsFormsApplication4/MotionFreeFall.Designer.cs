@@ -48,7 +48,7 @@
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.SystemColors.Control;
             this.label17.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label17.Location = new System.Drawing.Point(305, 144);
+            this.label17.Location = new System.Drawing.Point(346, 197);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(13, 15);
             this.label17.TabIndex = 37;
@@ -59,7 +59,7 @@
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.SystemColors.Control;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label16.Location = new System.Drawing.Point(302, 111);
+            this.label16.Location = new System.Drawing.Point(343, 156);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(16, 15);
             this.label16.TabIndex = 36;
@@ -70,7 +70,7 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.SystemColors.Control;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.Location = new System.Drawing.Point(302, 180);
+            this.label14.Location = new System.Drawing.Point(343, 235);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(26, 15);
             this.label14.TabIndex = 34;
@@ -97,7 +97,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.Control;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(137, 144);
+            this.label6.Location = new System.Drawing.Point(178, 197);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(53, 15);
             this.label6.TabIndex = 32;
@@ -121,7 +121,7 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(196, 177);
+            this.textBox3.Location = new System.Drawing.Point(237, 232);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 26;
@@ -130,7 +130,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(196, 140);
+            this.textBox2.Location = new System.Drawing.Point(237, 194);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 24;
@@ -141,7 +141,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Control;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(144, 111);
+            this.label1.Location = new System.Drawing.Point(185, 156);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 15);
             this.label1.TabIndex = 23;
@@ -150,7 +150,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(196, 108);
+            this.textBox1.Location = new System.Drawing.Point(237, 153);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 22;
@@ -161,7 +161,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.Control;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(54, 180);
+            this.label2.Location = new System.Drawing.Point(95, 235);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(136, 15);
             this.label2.TabIndex = 38;
@@ -171,7 +171,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 25.25F);
-            this.label3.Location = new System.Drawing.Point(133, 56);
+            this.label3.Location = new System.Drawing.Point(167, 56);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(223, 39);
             this.label3.TabIndex = 40;

@@ -228,7 +228,7 @@ namespace WindowsFormsApplication4
 
         private void button3_Click(object sender, EventArgs e)
         {
-            LawPowerElectricityTheory f = LawPowerElectricityTheory.get_instance();
+            LawResistanceTheory f = LawResistanceTheory.get_instance();
             f.Show();
         }
     }

@@ -113,7 +113,7 @@
             this.label8.Font = new System.Drawing.Font("Times New Roman", 11F);
             this.label8.Location = new System.Drawing.Point(12, 207);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(540, 136);
+            this.label8.Size = new System.Drawing.Size(544, 136);
             this.label8.TabIndex = 17;
             this.label8.Text = resources.GetString("label8.Text");
             this.label8.Click += new System.EventHandler(this.label8_Click);
