@@ -28,10 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Ruko
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(884, 861);
+            this.MaximumSize = new System.Drawing.Size(900, 900);
+            this.MinimumSize = new System.Drawing.Size(900, 900);
+            this.Name = "Ruko";
             this.Text = "Ruko";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
