@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Tracing;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -129,11 +130,8 @@ namespace WindowsFormsApplication4
 
                 return output;
             }
-
             static private double Counting(string input)
             {
-                int tt;
-                tt = 1;
                 double result = 0;
                 double b = 0;
                 Stack<double> temp = new Stack<double>();
@@ -152,12 +150,8 @@ namespace WindowsFormsApplication4
                                 i++;
                                 if (i == input.Length) break;
                             }
-                            if (tt == 1)
-                            {
-                                try { temp.Push(double.Parse(a)); }
-                                catch { MessageBox.Show("Перепроверьте строку", "Внимание", MessageBoxButtons.OK); }
-                                i--;
-                            }
+                            temp.Push(double.Parse(a));
+                            i--;
                         }
                         else if (input[i] == '\u03C0')
                             temp.Push(Math.PI);
@@ -167,21 +161,27 @@ namespace WindowsFormsApplication4
                         {
                             double a = temp.Pop();
                             try
-                            { b = temp.Pop(); }
-                            catch (Exception) { b = 0; }
-
-                            switch (input[i])
+                            { b = temp.Pop(); } 
+                            catch (Exception) 
                             {
-                                case '!': result = factorial((int)a); break;
-                                case 'P': result = factorial((int)b) / factorial((int)(b - a)); break;
-                                case 'C': result = factorial((int)b) / (factorial((int)a) * factorial((int)(b - a))); break;
-                                case '^': result = Math.Pow(b, a); break;
-                                case '%': result = b % a; break;
-                                case '+': result = b + a; break;
-                                case '-': result = b - a; break;
-                                case '*': result = b * a; break;
-                                case '/': if (a == 0) throw new DividedByZeroException(); else result = b / a; break;
+                                b = 0;
                             }
+                            try
+                            {
+                                switch (input[i])
+                                {
+                                    case '!': result = factorial((int)a); break;
+                                    case 'P': result = factorial((int)b) / factorial((int)(b - a)); break;
+                                    case 'C': result = factorial((int)b) / (factorial((int)a) * factorial((int)(b - a))); break;
+                                    case '^': result = Math.Pow(b, a); break;
+                                    case '%': result = b % a; break;
+                                    case '+': result = b + a; break;
+                                    case '-': result = b - a; break;
+                                    case '*': result = b * a; break;
+                                    case '/': if (a == 0) throw new DividedByZeroException(); else result = b / a; break;
+                                }
+                            }
+                            catch { new SyntaxException(); }
                             temp.Push(result); //
                         }
                     }
@@ -192,10 +192,7 @@ namespace WindowsFormsApplication4
                 
             }
 
-            private static string ConvertToString(int v)
-            {
-                throw new NotImplementedException();
-            }
+
 
             static private bool IsDelimeter(char c)
             {
@@ -209,6 +206,7 @@ namespace WindowsFormsApplication4
                     return true;
                 return false;
             }
+
             static private bool IsFunction(String s)
             {
                 String[] func = { "sin", "cos", "tg", "asin", "acos", "atg", "sqrt", "ln", "lg" };
@@ -216,7 +214,7 @@ namespace WindowsFormsApplication4
                     return true;
                 return false;
             }
-            static private String doFunc(String fun, double param)
+            static private String doFunc(String fun, double param) // бесполезная мешура
             {
                 switch (fun)
                 {
@@ -248,14 +246,30 @@ namespace WindowsFormsApplication4
                     default: return 4;
                 }
             }
-            private static int factorial(int x)
-            {
-                int i = 1;
-                for (int s = 1; s <= x; s++)
-                    i = i * s;
-                if (x < 0) throw new NegativeFactorialException(x);
-                return i;
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try 
+            { 
+                textBox2.Text = RPN.Calculate(textBox1.Text).ToString(); 
             }
+            catch (MyException ex) { textBox2.Text = ex.type; }
+
+        }
+
+
+        private static string ConvertToString(int v)
+        {
+            throw new NotImplementedException();
+        }
+        private static int factorial(int x)
+        {
+            int i = 1;
+            for (int s = 1; s <= x; s++)
+                i = i * s;
+            if (x < 0) throw new NegativeFactorialException(x);
+            return i;
         }
         public class MyException : Exception
         {
@@ -317,10 +331,14 @@ namespace WindowsFormsApplication4
                 MessageBox.Show("Acos(Asin) (" + x + ") не существует", type, MessageBoxButtons.OK);
             }
         }
+
+
+
+
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             char number = e.KeyChar;
-            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && (e.KeyChar <= 39 || e.KeyChar >= 46) && number != 47 && number != 94 && number != 61)
+            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && (e.KeyChar <= 39 || e.KeyChar >= 46) && number != 47 && number != 32 && number != 94 && number != 61)
             {
                 e.Handled = true;
             }
@@ -351,15 +369,10 @@ namespace WindowsFormsApplication4
         }
         private void Form2_Load(object sender, EventArgs e)
         {
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            try { textBox2.Text = RPN.Calculate(textBox1.Text).ToString(); }
-            catch (MyException ex) { textBox2.Text = ex.type; }
 
         }
+
+        
         private void label1_Click(object sender, EventArgs e)
         {
 

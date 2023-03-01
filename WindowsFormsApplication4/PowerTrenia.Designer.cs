@@ -212,7 +212,7 @@
             this.MinimumSize = new System.Drawing.Size(614, 468);
             this.Name = "PowerTrenia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = " ";
+            this.Text = " Сила трения";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
