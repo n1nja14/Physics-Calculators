@@ -127,9 +127,6 @@
   <data name="трение" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\трение.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="свободное падение" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\свободное падение.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="d26c7609e0a3f119" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\d26c7609e0a3f119.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,8 +139,8 @@
   <data name="равноускоренное" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\равноускоренное.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="свободное падение" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\свободное падение.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1200x630 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1200x630 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,11 +148,17 @@
   <data name="1622024717_28-phonoteka_org-p-akhegao-piksel-art-krasivo-37" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1622024717_28-phonoteka_org-p-akhegao-piksel-art-krasivo-37.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Без имени-4.pn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без имени-4.pn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="равномерное" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\равномерное.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ЗАКОНЫ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ЗАКОНЫ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12123123123123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12123123123123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ds" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,6 +168,9 @@
   </data>
   <data name="lectro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lectro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1200x960" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1200x960.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,6 +193,9 @@
   <data name="Без имени-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Без имени-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="312123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\312123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="123123123123" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\123123123123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -199,7 +208,7 @@
   <data name="1200x630 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1200x630 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Без имени-4.pn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Без имени-4.pn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="12231321123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12231321123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

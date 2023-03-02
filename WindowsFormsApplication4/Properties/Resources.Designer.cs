@@ -103,6 +103,26 @@ namespace WindowsFormsApplication4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _12123123123123 {
+            get {
+                object obj = ResourceManager.GetObject("12123123123123", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _12231321123 {
+            get {
+                object obj = ResourceManager.GetObject("12231321123", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _123123123123 {
             get {
                 object obj = ResourceManager.GetObject("123123123123", resourceCulture);
@@ -126,6 +146,16 @@ namespace WindowsFormsApplication4.Properties {
         internal static System.Drawing.Bitmap _213123312132123 {
             get {
                 object obj = ResourceManager.GetObject("213123312132123", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _312123 {
+            get {
+                object obj = ResourceManager.GetObject("312123", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
