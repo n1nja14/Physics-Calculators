@@ -34,5 +34,14 @@ namespace WindowsFormsApplication4
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Info f = Info.get_instance();
+            f.StartPosition = FormStartPosition.Manual;
+            f.Location = Location;
+            f.Show();
+            Hide();
+        }
     }
 }
