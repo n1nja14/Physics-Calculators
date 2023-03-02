@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OM9));
             this.button2 = new System.Windows.Forms.Button();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -41,7 +42,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.button2.Location = new System.Drawing.Point(336, 274);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 47);
             this.button2.TabIndex = 13;
@@ -54,7 +55,7 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.radioButton4.Location = new System.Drawing.Point(6, 154);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(294, 36);
             this.radioButton4.TabIndex = 12;
@@ -68,7 +69,7 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.radioButton3.Location = new System.Drawing.Point(6, 62);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(298, 36);
             this.radioButton3.TabIndex = 11;
@@ -82,7 +83,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.radioButton2.Location = new System.Drawing.Point(6, 115);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(278, 36);
             this.radioButton2.TabIndex = 10;
@@ -95,7 +96,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.radioButton1.Location = new System.Drawing.Point(6, 207);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(403, 36);
             this.radioButton1.TabIndex = 9;
@@ -119,7 +120,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.button1.Location = new System.Drawing.Point(11, 274);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 47);
             this.button1.TabIndex = 7;
@@ -139,7 +140,8 @@
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(508, 396);
             this.MinimumSize = new System.Drawing.Size(483, 396);
