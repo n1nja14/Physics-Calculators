@@ -34,6 +34,13 @@ namespace WindowsFormsApplication4
         {
 
         }
+        void Form_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
