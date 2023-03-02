@@ -285,8 +285,8 @@ namespace WindowsFormsApplication4
         {
             public LogException(double x)
             {
-                this.type = "Math error";
-                MessageBox.Show("Log(" + x + ") does not exsists", type, MessageBoxButtons.OK);
+                this.type = "Ошибка";
+                MessageBox.Show("Логарифм(" + x + ") не существует", type, MessageBoxButtons.OK);
             }
         }
         public class SyntaxException : MyException

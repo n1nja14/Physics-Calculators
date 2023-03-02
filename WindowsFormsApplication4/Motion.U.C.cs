@@ -55,15 +55,43 @@ namespace WindowsFormsApplication4
                 {
                     t = double.Parse(textBox2.Text);
                     f = double.Parse(textBox3.Text);
-                    w = f / t;
-                    textBox1.Text = Convert.ToString(w);
+                    if (t == 0)
+                    {
+                        MessageBox.Show(
+                        "Деление на ноль невозможно!",
+                        "Внимание!",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error,
+                        MessageBoxDefaultButton.Button1
+                        );
+                    }
+                    else
+                    {
+                        
+                        w = f / t;
+                        textBox1.Text = Convert.ToString(w);
+                    }
                 }
                 else if (textBox1.Text != String.Empty)
                 {
                     f = double.Parse(textBox3.Text);
-                    w = double.Parse(textBox1.Text);
-                    t = f / w;
-                    textBox2.Text = Convert.ToString(t);
+                     w = double.Parse(textBox1.Text);
+                    if (w == 0)
+                    {
+                        MessageBox.Show(
+                        "Деление на ноль невозможно!",
+                        "Внимание!",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error,
+                        MessageBoxDefaultButton.Button1
+                        );
+                    }
+                    else
+                    {
+                        
+                        t = f / w;
+                        textBox2.Text = Convert.ToString(t);
+                    }
                 }
                 else
                 {

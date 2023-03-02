@@ -41,16 +41,29 @@ namespace WindowsFormsApplication4
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            if (radioButton3.Checked)
+            if ((radioButton1.Checked == false) && (radioButton2.Checked == false) && (radioButton3.Checked == false) && (radioButton4.Checked == false))
             {
-                OE1.Data.p += 1;
+                MessageBox.Show(
+                "Остались пустые поля!",
+                "Внимание!",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error,
+                MessageBoxDefaultButton.Button1
+                );
             }
-            MessageBox.Show(
+            else
+            {
+                if (radioButton3.Checked)
+                {
+                    OE1.Data.p += 1;
+                }
+                MessageBox.Show(
                 "Кол-ов баллов: " + OE1.Data.p,
                 "Конец",
                 MessageBoxButtons.OK);
-            Hide();
-            OE1.Data.p = 0;
+                Hide();
+                OE1.Data.p = 0;
+            }
         }
     }
 }

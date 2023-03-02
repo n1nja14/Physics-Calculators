@@ -127,6 +127,7 @@
             this.MinimumSize = new System.Drawing.Size(950, 725);
             this.Name = "OM4";
             this.Text = "Тест на тему Механика";
+            this.Load += new System.EventHandler(this.OM4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

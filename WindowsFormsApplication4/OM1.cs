@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 using static WindowsFormsApplication4.OE1;
 
 namespace WindowsFormsApplication4
@@ -40,16 +41,29 @@ namespace WindowsFormsApplication4
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            lData.r = 0;
-            if (radioButton3.Checked)
+            if ((radioButton1.Checked == false) && (radioButton2.Checked == false) && (radioButton3.Checked == false))
             {
-                lData.r += 1;
+                MessageBox.Show(
+                "Остались пустые поля!",
+                "Внимание!",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error,
+                MessageBoxDefaultButton.Button1
+                );
             }
-            OM2 f = OM2.get_instance();
-            f.StartPosition = FormStartPosition.Manual;
-            f.Location = Location;
-            f.Show();
-            Hide();
+            else
+            {
+                lData.r = 0;
+                if (radioButton3.Checked)
+                {
+                    lData.r += 1;
+                }
+                OM2 f = OM2.get_instance();
+                f.StartPosition = FormStartPosition.Manual;
+                f.Location = Location;
+                f.Show();
+                Hide();
+            }
         }
     }
 }

@@ -39,12 +39,13 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.Control;
             this.button2.Location = new System.Drawing.Point(652, 526);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(240, 90);
             this.button2.TabIndex = 13;
-            this.button2.Text = "Далее";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Text = "Завершить тест";
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // radioButton4
@@ -102,12 +103,13 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.Location = new System.Drawing.Point(83, 526);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(240, 90);
             this.button1.TabIndex = 7;
             this.button1.Text = "Назад";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // OE10

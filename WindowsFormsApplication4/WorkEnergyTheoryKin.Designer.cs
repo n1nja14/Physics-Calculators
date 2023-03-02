@@ -40,7 +40,7 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label1.Location = new System.Drawing.Point(0, 59);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(591, 38);
+            this.label1.Size = new System.Drawing.Size(1172, 72);
             this.label1.TabIndex = 0;
             this.label1.Text = "Кинетическая энергия – энергия движения тела. Она определяет запас энергии тела, " +
     "\r\nкоторое обладает скоростью.";
@@ -57,7 +57,7 @@
             // 
             // WorkEnergyTheoryKin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.label1);
@@ -65,6 +65,8 @@
             this.Font = new System.Drawing.Font("Times New Roman", 10F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(610, 432);
+            this.MinimumSize = new System.Drawing.Size(610, 432);
             this.Name = "WorkEnergyTheoryKin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Теория: Кинетическая энергия";

@@ -121,8 +121,22 @@ namespace WindowsFormsApplication4
                 {
                     t = double.Parse(textBox2.Text);
                     s = double.Parse(textBox1.Text);
-                    v0 = (s - ((9.8 * t * t) / 2)) / t;
-                    textBox3.Text = Convert.ToString(v0);
+                    if (t == 0)
+                    {
+                        MessageBox.Show(
+                        "Деление на ноль невозможно!",
+                        "Внимание!",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error,
+                        MessageBoxDefaultButton.Button1
+                        );
+                    }
+                    else
+                    {
+
+                        v0 = (s - ((9.8 * t * t) / 2)) / t;
+                        textBox3.Text = Convert.ToString(v0);
+                    }
                 }
                 else
                 {

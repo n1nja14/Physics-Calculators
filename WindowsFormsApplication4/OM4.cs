@@ -39,15 +39,33 @@ namespace WindowsFormsApplication4
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            if (radioButton3.Checked)
+            if ((radioButton1.Checked == false) && (radioButton2.Checked == false) && (radioButton3.Checked == false) && (radioButton4.Checked == false))
             {
-                OM1.lData.r += 1;
+                MessageBox.Show(
+                "Остались пустые поля!",
+                "Внимание!",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error,
+                MessageBoxDefaultButton.Button1
+                );
             }
-            OM5 f = OM5.get_instance();
-            f.StartPosition = FormStartPosition.Manual;
-            f.Location = Location;
-            f.Show();
-            Hide();
+            else
+            {
+                if (radioButton3.Checked)
+                {
+                    OM1.lData.r += 1;
+                }
+                OM5 f = OM5.get_instance();
+                f.StartPosition = FormStartPosition.Manual;
+                f.Location = Location;
+                f.Show();
+                Hide();
+            }
+        }
+
+        private void OM4_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
