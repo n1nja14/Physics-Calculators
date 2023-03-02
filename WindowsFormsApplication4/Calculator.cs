@@ -333,11 +333,11 @@ namespace WindowsFormsApplication4
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-/*            char number = e.KeyChar;
+            char number = e.KeyChar;
             if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && (e.KeyChar <= 39 || e.KeyChar >= 46) && number != 47 && number != 32 && number != 94 && number != 61)
             {
                 e.Handled = true;
-            }*/
+            }
         }
         private void button2_Click(object sender, EventArgs e)
         {

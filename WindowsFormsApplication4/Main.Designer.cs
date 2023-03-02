@@ -122,7 +122,7 @@
             this.button6.Location = new System.Drawing.Point(289, 469);
             this.button6.Margin = new System.Windows.Forms.Padding(6);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(240, 90);
+            this.button6.Size = new System.Drawing.Size(250, 90);
             this.button6.TabIndex = 6;
             this.button6.Text = "Тест на тему\r\n\"Электродинамика\"";
             this.button6.UseVisualStyleBackColor = true;
