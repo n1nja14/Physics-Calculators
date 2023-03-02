@@ -40,9 +40,11 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(656, 526);
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.button2.Location = new System.Drawing.Point(336, 274);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(240, 90);
+            this.button2.Size = new System.Drawing.Size(120, 47);
             this.button2.TabIndex = 20;
             this.button2.Text = "Далее";
             this.button2.UseVisualStyleBackColor = true;
@@ -51,9 +53,11 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(83, 348);
+            this.radioButton4.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.radioButton4.Location = new System.Drawing.Point(42, 181);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(193, 29);
+            this.radioButton4.Size = new System.Drawing.Size(112, 20);
             this.radioButton4.TabIndex = 19;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "4) Напряжение";
@@ -62,9 +66,11 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(83, 291);
+            this.radioButton3.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.radioButton3.Location = new System.Drawing.Point(42, 151);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(285, 29);
+            this.radioButton3.Size = new System.Drawing.Size(166, 20);
             this.radioButton3.TabIndex = 18;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "3) Электрический заряд";
@@ -73,9 +79,11 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(83, 234);
+            this.radioButton2.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.radioButton2.Location = new System.Drawing.Point(42, 122);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(224, 29);
+            this.radioButton2.Size = new System.Drawing.Size(130, 20);
             this.radioButton2.TabIndex = 17;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "2) Сопротивление";
@@ -84,9 +92,11 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(83, 177);
+            this.radioButton1.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.radioButton1.Location = new System.Drawing.Point(42, 92);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(170, 29);
+            this.radioButton1.Size = new System.Drawing.Size(99, 20);
             this.radioButton1.TabIndex = 16;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "1) Сила тока";
@@ -95,18 +105,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(78, 63);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.label1.Location = new System.Drawing.Point(11, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(767, 50);
+            this.label1.Size = new System.Drawing.Size(449, 32);
             this.label1.TabIndex = 15;
             this.label1.Text = "5. Укажите, какая физическая величина одинакова для всех проводников, \r\nсоединённ" +
     "ых параллельно?";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(83, 526);
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.button1.Location = new System.Drawing.Point(11, 274);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(240, 90);
+            this.button1.Size = new System.Drawing.Size(120, 47);
             this.button1.TabIndex = 14;
             this.button1.Text = "Назад";
             this.button1.UseVisualStyleBackColor = true;
@@ -115,9 +129,11 @@
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(83, 405);
+            this.radioButton5.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.radioButton5.Location = new System.Drawing.Point(42, 211);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(171, 29);
+            this.radioButton5.Size = new System.Drawing.Size(103, 20);
             this.radioButton5.TabIndex = 21;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "5) Мощность";
@@ -125,9 +141,9 @@
             // 
             // OE5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(924, 654);
+            this.ClientSize = new System.Drawing.Size(467, 357);
             this.Controls.Add(this.radioButton5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.radioButton4);
@@ -136,9 +152,10 @@
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1000, 725);
-            this.MinimumSize = new System.Drawing.Size(950, 725);
+            this.MaximumSize = new System.Drawing.Size(508, 396);
+            this.MinimumSize = new System.Drawing.Size(483, 396);
             this.Name = "OE5";
             this.Text = "Тест на тему Электродинамика";
             this.ResumeLayout(false);
