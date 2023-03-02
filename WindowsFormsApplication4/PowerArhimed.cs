@@ -143,7 +143,7 @@ namespace WindowsFormsApplication4
 
         private void button2_Click(object sender, EventArgs e)
         {
-            LawJouleTheory.get_instance().Hide();
+            PowerArhimedTheory.get_instance().Hide();
             Power f = Power.get_instance();
             f.StartPosition = FormStartPosition.Manual;
             f.Location = Location;

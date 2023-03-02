@@ -40,7 +40,8 @@
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(83, 526);
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(56, 526);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(240, 90);
             this.button1.TabIndex = 0;
@@ -51,9 +52,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(78, 63);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(1, 83);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(691, 25);
+            this.label1.Size = new System.Drawing.Size(922, 36);
             this.label1.TabIndex = 1;
             this.label1.Text = "1. Сила взаимодействия двух неподвижных электрических зарядов";
             // 
@@ -61,9 +63,10 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton1.Location = new System.Drawing.Point(83, 186);
+            this.radioButton1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radioButton1.Location = new System.Drawing.Point(13, 209);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(680, 29);
+            this.radioButton1.Size = new System.Drawing.Size(898, 40);
             this.radioButton1.TabIndex = 2;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "1) обратно пропорциональна квадрату расстояния между ними";
@@ -73,9 +76,10 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton2.Location = new System.Drawing.Point(83, 240);
+            this.radioButton2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radioButton2.Location = new System.Drawing.Point(13, 263);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(568, 29);
+            this.radioButton2.Size = new System.Drawing.Size(756, 40);
             this.radioButton2.TabIndex = 3;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "2) прямо пропорциональна расстоянию между ними";
@@ -85,9 +89,10 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton3.Location = new System.Drawing.Point(83, 294);
+            this.radioButton3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radioButton3.Location = new System.Drawing.Point(13, 317);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(666, 29);
+            this.radioButton3.Size = new System.Drawing.Size(882, 40);
             this.radioButton3.TabIndex = 4;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "3) прямо пропорциональна квадрату расстояния между ними ";
@@ -97,9 +102,10 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton4.Location = new System.Drawing.Point(83, 348);
+            this.radioButton4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radioButton4.Location = new System.Drawing.Point(13, 371);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(588, 29);
+            this.radioButton4.Size = new System.Drawing.Size(780, 40);
             this.radioButton4.TabIndex = 5;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "4) обратно пропорциональна расстоянию между ними";
@@ -108,7 +114,8 @@
             // button2
             // 
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Location = new System.Drawing.Point(656, 526);
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Location = new System.Drawing.Point(629, 526);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(240, 90);
             this.button2.TabIndex = 6;
