@@ -67,6 +67,9 @@
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Baron_1321_physics_calculator_icon_4eb470e1-59aa-44b1-b405-7b1cf1e1c781.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -806,6 +809,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\12231321123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Baron_1321_physics_calculator_icon_4eb470e1-59aa-44b1-b405-7b1cf1e1c781.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
