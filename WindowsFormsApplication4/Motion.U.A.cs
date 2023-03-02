@@ -71,8 +71,8 @@ namespace WindowsFormsApplication4
                                 "Внимание!",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error,
-                                MessageBoxDefaultButton.Button1,
-                                MessageBoxOptions.DefaultDesktopOnly);
+                                MessageBoxDefaultButton.Button1
+                                );
                             }
                             else
                             {
@@ -96,8 +96,8 @@ namespace WindowsFormsApplication4
                             "Внимание!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Error,
-                            MessageBoxDefaultButton.Button1,
-                            MessageBoxOptions.DefaultDesktopOnly);
+                            MessageBoxDefaultButton.Button1
+                            );
                         }
                     }
                     else if (textBox5.Text != string.Empty)
@@ -117,8 +117,8 @@ namespace WindowsFormsApplication4
                             "Внимание!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Error,
-                            MessageBoxDefaultButton.Button1,
-                            MessageBoxOptions.DefaultDesktopOnly);
+                            MessageBoxDefaultButton.Button1
+                            );
                         }
                     }
                     else
@@ -128,8 +128,8 @@ namespace WindowsFormsApplication4
                         "Внимание!",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error,
-                        MessageBoxDefaultButton.Button1,
-                        MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBoxDefaultButton.Button1
+                        );
                     }
 
                 }
@@ -149,8 +149,8 @@ namespace WindowsFormsApplication4
                                 "Внимание!",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error,
-                                MessageBoxDefaultButton.Button1,
-                                MessageBoxOptions.DefaultDesktopOnly);
+                                MessageBoxDefaultButton.Button1
+                                );
                             }
                             else
                             {
@@ -165,8 +165,8 @@ namespace WindowsFormsApplication4
                             "Внимание!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Error,
-                            MessageBoxDefaultButton.Button1,
-                            MessageBoxOptions.DefaultDesktopOnly);
+                            MessageBoxDefaultButton.Button1
+                            );
                         }
                     }
                     else
@@ -176,8 +176,8 @@ namespace WindowsFormsApplication4
                         "Внимание!",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error,
-                        MessageBoxDefaultButton.Button1,
-                        MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBoxDefaultButton.Button1
+                        );
                     }
                 }
                 else
@@ -187,8 +187,8 @@ namespace WindowsFormsApplication4
                     "Внимание!",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error,
-                    MessageBoxDefaultButton.Button1,
-                    MessageBoxOptions.DefaultDesktopOnly);
+                    MessageBoxDefaultButton.Button1
+                    );
                 }
             }
             else if (radioButton2.Checked)
@@ -217,8 +217,8 @@ namespace WindowsFormsApplication4
                                 "Внимание!",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error,
-                                MessageBoxDefaultButton.Button1,
-                                MessageBoxOptions.DefaultDesktopOnly);
+                                MessageBoxDefaultButton.Button1
+                                );
                             }
                             else
                             {
@@ -233,8 +233,8 @@ namespace WindowsFormsApplication4
                             "Внимание!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Error,
-                            MessageBoxDefaultButton.Button1,
-                            MessageBoxOptions.DefaultDesktopOnly);
+                            MessageBoxDefaultButton.Button1
+                            );
                         }
                     }
                     else if (textBox3.Text != string.Empty)
@@ -251,8 +251,8 @@ namespace WindowsFormsApplication4
                                 "Внимание!",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error,
-                                MessageBoxDefaultButton.Button1,
-                                MessageBoxOptions.DefaultDesktopOnly);
+                                MessageBoxDefaultButton.Button1
+                                );
                             }
                             else
                             {
@@ -267,8 +267,8 @@ namespace WindowsFormsApplication4
                             "Внимание!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Error,
-                            MessageBoxDefaultButton.Button1,
-                            MessageBoxOptions.DefaultDesktopOnly);
+                            MessageBoxDefaultButton.Button1
+                            );
                         }
                     }
                     else
@@ -278,8 +278,8 @@ namespace WindowsFormsApplication4
                         "Внимание!",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error,
-                        MessageBoxDefaultButton.Button1,
-                        MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBoxDefaultButton.Button1
+                        );
                     }
                 }
                 else if (textBox3.Text != string.Empty)
@@ -301,8 +301,8 @@ namespace WindowsFormsApplication4
                             "Внимание!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Error,
-                            MessageBoxDefaultButton.Button1,
-                            MessageBoxOptions.DefaultDesktopOnly);
+                            MessageBoxDefaultButton.Button1
+                            );
                         }
                     }
                     else
@@ -312,8 +312,8 @@ namespace WindowsFormsApplication4
                         "Внимание!",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error,
-                        MessageBoxDefaultButton.Button1,
-                        MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBoxDefaultButton.Button1
+                        );
                     }
                 }
                 else
@@ -323,8 +323,8 @@ namespace WindowsFormsApplication4
                     "Внимание!",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error,
-                    MessageBoxDefaultButton.Button1,
-                    MessageBoxOptions.DefaultDesktopOnly);
+                    MessageBoxDefaultButton.Button1
+                    );
                 }
             }
             else if (radioButton3.Checked)
@@ -353,8 +353,8 @@ namespace WindowsFormsApplication4
                                 "Внимание!",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error,
-                                MessageBoxDefaultButton.Button1,
-                                MessageBoxOptions.DefaultDesktopOnly);
+                                MessageBoxDefaultButton.Button1
+                                );
                             }
                             else
                             {
@@ -369,8 +369,8 @@ namespace WindowsFormsApplication4
                             "Внимание!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Error,
-                            MessageBoxDefaultButton.Button1,
-                            MessageBoxOptions.DefaultDesktopOnly);
+                            MessageBoxDefaultButton.Button1
+                            );
                         }
                     }
                     else if (textBox1.Text != string.Empty)
@@ -387,8 +387,8 @@ namespace WindowsFormsApplication4
                                 "Внимание!",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error,
-                                MessageBoxDefaultButton.Button1,
-                                MessageBoxOptions.DefaultDesktopOnly);
+                                MessageBoxDefaultButton.Button1
+                                );
                             }
                             else
                             {
@@ -403,8 +403,8 @@ namespace WindowsFormsApplication4
                             "Внимание!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Error,
-                            MessageBoxDefaultButton.Button1,
-                            MessageBoxOptions.DefaultDesktopOnly);
+                            MessageBoxDefaultButton.Button1
+                            );
                         }
                     }
                     else
@@ -414,8 +414,8 @@ namespace WindowsFormsApplication4
                         "Внимание!",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error,
-                        MessageBoxDefaultButton.Button1,
-                        MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBoxDefaultButton.Button1
+                        );
                     }
                 }
                 else if (textBox1.Text != string.Empty)
@@ -434,8 +434,8 @@ namespace WindowsFormsApplication4
                                 "Внимание!",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error,
-                                MessageBoxDefaultButton.Button1,
-                                MessageBoxOptions.DefaultDesktopOnly);
+                                MessageBoxDefaultButton.Button1
+                                );
                             }
                             else if (a == 0)
                             {
@@ -444,8 +444,8 @@ namespace WindowsFormsApplication4
                                 "Внимание!",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error,
-                                MessageBoxDefaultButton.Button1,
-                                MessageBoxOptions.DefaultDesktopOnly);
+                                MessageBoxDefaultButton.Button1
+                                );
                             }
                             else
                             {
@@ -481,8 +481,8 @@ namespace WindowsFormsApplication4
                             "Внимание!",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Error,
-                            MessageBoxDefaultButton.Button1,
-                            MessageBoxOptions.DefaultDesktopOnly);
+                            MessageBoxDefaultButton.Button1
+                            );
                         }
                     }
                     else
@@ -492,8 +492,8 @@ namespace WindowsFormsApplication4
                         "Внимание!",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error,
-                        MessageBoxDefaultButton.Button1,
-                        MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBoxDefaultButton.Button1
+                        );
                     }
                 }
                 else
@@ -503,8 +503,8 @@ namespace WindowsFormsApplication4
                     "Внимание!",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error,
-                    MessageBoxDefaultButton.Button1,
-                    MessageBoxOptions.DefaultDesktopOnly);
+                    MessageBoxDefaultButton.Button1
+                    );
                 }
             }
             else
@@ -514,8 +514,8 @@ namespace WindowsFormsApplication4
                 "Внимание!",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error,
-                MessageBoxDefaultButton.Button1,
-                MessageBoxOptions.DefaultDesktopOnly);
+                MessageBoxDefaultButton.Button1
+                );
             }
         }
         private void label8_Click(object sender, EventArgs e)

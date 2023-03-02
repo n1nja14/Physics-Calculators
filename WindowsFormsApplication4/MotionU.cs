@@ -70,8 +70,8 @@ namespace WindowsFormsApplication4
                         "Внимание!",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error,
-                        MessageBoxDefaultButton.Button1,
-                        MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBoxDefaultButton.Button1
+                        );
                     }
                     else
                     {
@@ -80,6 +80,13 @@ namespace WindowsFormsApplication4
 
                     }
                 }
+                MessageBox.Show(
+                "Остались пустые поля!",
+                "Внимание!",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error,
+                MessageBoxDefaultButton.Button1
+                );
             }
             else if (textBox2.Text != string.Empty)
             {
@@ -94,8 +101,8 @@ namespace WindowsFormsApplication4
                         "Внимание!",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error,
-                        MessageBoxDefaultButton.Button1,
-                        MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBoxDefaultButton.Button1
+                        );
                     }
                     else
                     {
@@ -103,7 +110,22 @@ namespace WindowsFormsApplication4
                         textBox3.Text = Convert.ToString(t);
                     }
                 }
+                MessageBox.Show(
+                "Остались пустые поля!",
+                "Внимание!",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error,
+                MessageBoxDefaultButton.Button1
+                );
+
             }
+            MessageBox.Show(
+                "Остались пустые поля!",
+                "Внимание!",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error,
+                MessageBoxDefaultButton.Button1
+                );
         }
 
         private void button2_Click(object sender, EventArgs e)
