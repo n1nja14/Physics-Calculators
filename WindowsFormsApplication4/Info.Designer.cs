@@ -423,7 +423,8 @@
             this.button2.BackColor = System.Drawing.SystemColors.Control;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.FlatAppearance.BorderSize = 2;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 11.25F);
             this.button2.Location = new System.Drawing.Point(76, 175);
             this.button2.Margin = new System.Windows.Forms.Padding(6);
             this.button2.Name = "button2";
