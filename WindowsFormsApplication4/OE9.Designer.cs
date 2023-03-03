@@ -153,6 +153,7 @@
             this.MinimumSize = new System.Drawing.Size(940, 696);
             this.Name = "OE9";
             this.Text = "Тест на тему Электродинамика";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Test_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

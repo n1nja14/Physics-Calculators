@@ -39,6 +39,18 @@ namespace WindowsFormsApplication4
         {
             Hide();
         }
+        private void Test_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            var dr = MessageBox.Show("Хотите закончить тест не пройдя его полностью ?", "Внимание!", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (DialogResult.Yes == dr)
+            {
+                e.Cancel = true;
+                Hide();
+            }
+            else {
+                e.Cancel = dr == DialogResult.No;
+            } 
+        }
         private void button2_Click(object sender, EventArgs e)
         {
             if ((radioButton1.Checked == false) && (radioButton2.Checked == false) && (radioButton3.Checked == false))

@@ -155,6 +155,7 @@
             this.MinimumSize = new System.Drawing.Size(940, 696);
             this.Name = "OM9";
             this.Text = "Тест на тему Механика";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Test_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

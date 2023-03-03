@@ -119,10 +119,10 @@
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button6.Location = new System.Drawing.Point(289, 469);
+            this.button6.Location = new System.Drawing.Point(284, 453);
             this.button6.Margin = new System.Windows.Forms.Padding(6);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(254, 90);
+            this.button6.Size = new System.Drawing.Size(266, 96);
             this.button6.TabIndex = 6;
             this.button6.Text = "Тест на тему\r\n\"Электродинамика\"";
             this.button6.UseVisualStyleBackColor = true;
@@ -133,10 +133,10 @@
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button7.Location = new System.Drawing.Point(651, 469);
+            this.button7.Location = new System.Drawing.Point(651, 453);
             this.button7.Margin = new System.Windows.Forms.Padding(6);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(240, 90);
+            this.button7.Size = new System.Drawing.Size(266, 96);
             this.button7.TabIndex = 7;
             this.button7.Text = "Тест на тему \"Механика\"";
             this.button7.UseVisualStyleBackColor = true;
