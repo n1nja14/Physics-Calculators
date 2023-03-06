@@ -31,16 +31,8 @@ namespace WindowsFormsApplication4
         }
         private void Test_FormClosing(object sender, FormClosingEventArgs e)
         {
-            var dr = MessageBox.Show("Хотите закончить тест не пройдя его полностью ?", "Внимание!", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-            if (DialogResult.Yes == dr)
-            {
-                e.Cancel = true;
+            e.Cancel = true;
                 Hide();
-            }
-            else
-            {
-                e.Cancel = dr == DialogResult.No;
-            }
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -73,7 +65,26 @@ namespace WindowsFormsApplication4
                 "Конец",
                 MessageBoxButtons.OK);
                 OM1.lData.r = 0;
-                Hide();
+                Application.OpenForms["OM1"].Close();
+                Application.OpenForms["OM2"].Close();
+                Application.OpenForms["OM3"].Close();
+                Application.OpenForms["OM4"].Close();
+                Application.OpenForms["OM5"].Close();
+                Application.OpenForms["OM6"].Close();
+                Application.OpenForms["OM7"].Close();
+                Application.OpenForms["OM8"].Close();
+                Application.OpenForms["OM9"].Close();
+                OM1.Instance = null;
+                OM2.Instance = null;
+                OM3.Instance = null;
+                OM4.Instance = null;
+                OM5.Instance = null;
+                OM6.Instance = null;
+                OM7.Instance = null;
+                OM8.Instance = null;
+                OM9.Instance = null;
+                OM10.Instance = null;
+                Close();
             }
         }
         private void radioButton4_CheckedChanged(object sender, EventArgs e)

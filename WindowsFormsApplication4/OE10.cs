@@ -31,16 +31,8 @@ namespace WindowsFormsApplication4
         }
         private void Test_FormClosing(object sender, FormClosingEventArgs e)
         {
-            var dr = MessageBox.Show("Хотите закончить тест не пройдя его полностью ?", "Внимание!", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-            if (DialogResult.Yes == dr)
-            {
-                e.Cancel = true;
-                Hide();
-            }
-            else
-            {
-                e.Cancel = dr == DialogResult.No;
-            }
+            e.Cancel = true;
+            Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -73,8 +65,27 @@ namespace WindowsFormsApplication4
                 "Кол-ов баллов: " + OE1.Data.p,
                 "Конец",
                 MessageBoxButtons.OK);
-                Hide();
                 OE1.Data.p = 0;
+                Application.OpenForms["OE1"].Close();
+                Application.OpenForms["OE2"].Close();
+                Application.OpenForms["OE3"].Close();
+                Application.OpenForms["OE4"].Close();
+                Application.OpenForms["OE5"].Close();
+                Application.OpenForms["OE6"].Close();
+                Application.OpenForms["OE7"].Close();
+                Application.OpenForms["OE8"].Close();
+                Application.OpenForms["OE9"].Close();
+                OE1.Instance = null;
+                OE2.Instance = null;
+                OE3.Instance = null;
+                OE4.Instance = null;
+                OE5.Instance = null;
+                OE6.Instance = null;
+                OE7.Instance = null;
+                OE8.Instance = null;
+                OE9.Instance = null;
+                OE10.Instance = null;
+                Close();
             }
         }
     }

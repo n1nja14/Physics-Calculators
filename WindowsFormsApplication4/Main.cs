@@ -20,9 +20,9 @@ namespace WindowsFormsApplication4
                 Instance = new Main();
                 return Instance;
             }
-            else 
-            { 
-                return Instance; 
+            else
+            {
+                return Instance;
             }
         }
         public Main()
@@ -72,20 +72,14 @@ namespace WindowsFormsApplication4
             f.Show();
             Hide();
         }
-
-        private void Main_Closing(object sender, CancelEventArgs e)
-        {
-            System.Windows.Forms.Application.Exit();
-        }
-        
         private void Main_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void button6_Click_1(object sender, EventArgs e)

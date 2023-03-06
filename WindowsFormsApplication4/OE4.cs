@@ -27,16 +27,8 @@ namespace WindowsFormsApplication4
         }
         private void Test_FormClosing(object sender, FormClosingEventArgs e)
         {
-            var dr = MessageBox.Show("Хотите закончить тест не пройдя его полностью ?", "Внимание!", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-            if (DialogResult.Yes == dr)
-            {
-                e.Cancel = true;
+            e.Cancel = true;
                 Hide();
-            }
-            else
-            {
-                e.Cancel = dr == DialogResult.No;
-            }
         }
         public OE4()
         {
