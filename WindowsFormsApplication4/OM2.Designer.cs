@@ -57,7 +57,7 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton4.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.radioButton4.Location = new System.Drawing.Point(84, 358);
+            this.radioButton4.Location = new System.Drawing.Point(84, 356);
             this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(285, 35);
@@ -71,7 +71,7 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton3.Font = new System.Drawing.Font("Times New Roman", 10F);
-            this.radioButton3.Location = new System.Drawing.Point(84, 304);
+            this.radioButton3.Location = new System.Drawing.Point(84, 302);
             this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(327, 35);
